@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #050505;
+    height: 100%;
+  }
+
+  body {
+    @apply bg-luxury-black text-white antialiased overflow-x-hidden;
+    font-family: 'Eurostile Bold', 'Eurostile Rounded', 'Eurostile', 'Microgramma', 'Arial Rounded MT Bold', sans-serif;
+    /* Eurostile fallback */
+    min-height: 100%;
+    position: relative;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold uppercase tracking-wider;
+    font-family: 'Eurostile Extended', 'Eurostile Bold', 'Eurostile', 'Microgramma', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  }
+
+  .text-shadow-glow {
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  }
+
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+  }
+
+  /* Hide Leaflet Attribution */
+  .leaflet-control-attribution {
+    display: none !important;
+  }
+
+  /* Hide Sketchfab/3D branding if possible via CSS */
+  .sketchfab-embed-wrapper div[class*="controls"],
+  .sketchfab-embed-wrapper a,
+  .sketchfab-embed-wrapper .title,
+  .sketchfab-embed-wrapper .author,
+  iframe[title*="Sketchfab"]+div,
+  iframe[src*="sketchfab"]+div {
+    display: none !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .smudged-watermark {
+    @apply transition-transform duration-1000;
+  }
+}

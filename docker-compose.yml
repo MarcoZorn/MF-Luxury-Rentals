@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  mf-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mf-frontend
+    restart: always
+    networks:
+      - traefik-proxy
+    labels:
+      - "traefik.enable=true"
+      # Secure Entrypoint (web-secure)
+      - "traefik.http.routers.mf-secure.entrypoints=web-secure"
+      - "traefik.http.routers.mf-secure.rule=Host(`mf.aconite.dev`)"
+      - "traefik.http.routers.mf-secure.tls=true"
+      # Cert Resolver (le)
+      - "traefik.http.routers.mf-secure.tls.certresolver=le"
+      - "traefik.http.routers.mf-secure.service=mf-service"
+      # Port 80 for Nginx inside container
+      - "traefik.http.services.mf-service.loadbalancer.server.port=80"
+      - "traefik.docker.network=traefik-proxy"
+
+networks:
+  traefik-proxy:
+    external: true
