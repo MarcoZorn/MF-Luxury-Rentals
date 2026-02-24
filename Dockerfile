@@ -1,24 +1,29 @@
-# Stage 1: Build
-FROM node:18-alpine AS build
+# Stage 1: Build (Node/Vite)
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Install dependencies
+# Install dependencies using clean install for production
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 
-# Copy source and build
+# Copy source code
 COPY . .
+
+# Build the application (compiles to /app/dist)
 RUN npm run build
 
-# Stage 2: Serve
+# Stage 2: Serve (Nginx) - Bare Metal Performance
 FROM nginx:alpine
 
-# Copy custom nginx config
+# Copy custom Nginx configuration optimized for React SPA
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copy static files from build stage
-COPY --from=build /app/dist /usr/share/nginx/html
+# Copy compiled static files from builder stage
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# Disable server tokens (security)
+RUN sed -i 's/server_tokens on;/server_tokens off;/' /etc/nginx/nginx.conf || true
 
 EXPOSE 80
 

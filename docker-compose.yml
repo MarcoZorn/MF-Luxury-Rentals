@@ -11,14 +11,14 @@ services:
       - traefik-proxy
     labels:
       - "traefik.enable=true"
-      # Secure Entrypoint (web-secure)
+      # Production Entrypoint
       - "traefik.http.routers.mf-secure.entrypoints=web-secure"
       - "traefik.http.routers.mf-secure.rule=Host(`mf.aconite.dev`)"
       - "traefik.http.routers.mf-secure.tls=true"
-      # Cert Resolver (le)
+      # Global SSL Resolver
       - "traefik.http.routers.mf-secure.tls.certresolver=le"
       - "traefik.http.routers.mf-secure.service=mf-service"
-      # Port 80 for Nginx inside container
+      # Internal Nginx Port
       - "traefik.http.services.mf-service.loadbalancer.server.port=80"
       - "traefik.docker.network=traefik-proxy"
 
