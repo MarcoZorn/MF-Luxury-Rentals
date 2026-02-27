@@ -4,8 +4,8 @@ import { Car, Send, UserCheck, ShieldCheck, Plane, Anchor, Briefcase, Heart, Arr
 import Button from '../components/ui/Button';
 import { useLanguage } from '../hooks/useLanguage';
 import { Link } from 'react-router-dom';
-import jetImg from '../assets/images/services/jet.png';
-import yachtImg from '../assets/images/services/yacht.png';
+import jetImg from '../assets/images/services/jet.jpg';
+import yachtImg from '../assets/images/services/yacht.jpg';
 
 const Services: React.FC = () => {
     const { t } = useLanguage();

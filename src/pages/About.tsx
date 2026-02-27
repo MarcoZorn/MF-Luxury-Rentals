@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Star, Award, Zap, Trophy } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
-import conciergeImg from '../assets/images/ui/about-concierge.png';
-import yachtImg from '../assets/images/services/yacht.png';
-import jetImg from '../assets/images/services/jet.png';
+import conciergeImg from '../assets/images/ui/about-concierge.jpg';
+import yachtImg from '../assets/images/services/yacht.jpg';
+import jetImg from '../assets/images/services/jet.jpg';
 
 const About: React.FC = () => {
     const { t } = useLanguage();
@@ -16,7 +16,7 @@ const About: React.FC = () => {
             {/* Background Image with Overlay */}
             <div className="fixed inset-0 z-0">
                 <img
-                    src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1600&q=80"
+                    src={conciergeImg}
                     alt=""
                     className="w-full h-full object-cover opacity-60 grayscale scale-105"
                     loading="lazy"
@@ -58,7 +58,7 @@ const About: React.FC = () => {
                     </p>
 
                     <p className="text-lg md:text-xl text-gray-300 font-light leading-relaxed max-w-3xl mx-auto">
-                        {t('about.content')}
+                        MF Italy Luxury Rent è il punto di riferimento in Europa per il noleggio di Supercar e Hypercar. Nati nel cuore di Roma, abbiamo esteso il nostro impero nelle località più iconiche del mondo, da Porto Cervo a Miami. La nostra missione non è solo fornire un'auto, ma regalare un'emozione irripetibile, supportata da un servizio concierge di livello assoluto disponibile 24/7.
                     </p>
                 </motion.div>
 

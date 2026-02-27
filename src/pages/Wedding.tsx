@@ -4,9 +4,9 @@ import { Heart, Camera, Gift, Star } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import Button from '../components/ui/Button';
 import { Link } from 'react-router-dom';
-import wedding1 from '../assets/images/wedding/wedding_1.png';
-import wedding2 from '../assets/images/wedding/wedding_2.png';
-import weddingHero from '../assets/images/services/jet.png'; // Reusing jet for high-end feel in hero
+import wedding1 from '../assets/images/wedding/wedding_main.jpg';
+import wedding2 from '../assets/images/wedding/wedding_ceremony.jpg';
+import weddingHero from '../assets/images/ui/hero-poster.jpg';
 
 const Wedding: React.FC = () => {
     const { t } = useLanguage();

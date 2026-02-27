@@ -13,8 +13,7 @@
 
   body {
     @apply bg-luxury-black text-white antialiased overflow-x-hidden;
-    font-family: 'Eurostile Bold', 'Eurostile Rounded', 'Eurostile', 'Microgramma', 'Arial Rounded MT Bold', sans-serif;
-    /* Eurostile fallback */
+    font-family: 'Eurostile Rounded Bold', 'Eurostile Extended', 'Eurostile', 'Arial Rounded MT Bold', sans-serif;
     min-height: 100%;
     position: relative;
   }
