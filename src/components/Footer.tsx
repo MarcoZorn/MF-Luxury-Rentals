@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Instagram, Facebook, Twitter, MapPin, Mail, Phone } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import logoMain from '../assets/images/branding/logo_main.png';
-import mfBollino from '../assets/images/branding/bollino-mf_nuovo.jpeg';
 
 const Footer: React.FC = () => {
     const { t } = useLanguage();
@@ -19,7 +18,7 @@ const Footer: React.FC = () => {
                     {/* The "smudge" effect using multiple blurs */}
                     <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-1/2 bg-luxury-gold/5 blur-[150px] rounded-full" />
                     <img
-                        src={mfBollino}
+                        src={logoMain}
                         alt=""
                         className="relative w-[40%] rounded-[2rem] shadow-2xl opacity-40 grayscale brightness-150 contrast-125 rotate-[-5deg] smudged-watermark"
                     />
@@ -29,7 +28,7 @@ const Footer: React.FC = () => {
             <div className="container mx-auto px-6 relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-20">
                     {/* Brand */}
-                    <div className="lg:col-span-1 space-y-8">
+                    <div className="lg:col-span-2 space-y-8">
                         <Link to="/" className="relative z-50 group flex items-start" aria-label="MF Luxury Rentals Home">
                             <img
                                 src={logoMain}
@@ -37,7 +36,7 @@ const Footer: React.FC = () => {
                                 className="h-10 object-contain"
                             />
                         </Link>
-                        <p className="text-gray-500 font-light leading-relaxed text-xs max-w-xs">
+                        <p className="text-gray-500 font-light leading-relaxed text-xs max-w-sm">
                             {t('footer.description')}
                         </p>
                         <div className="flex space-x-6">
@@ -56,20 +55,6 @@ const Footer: React.FC = () => {
                                 </a>
                             ))}
                         </div>
-                    </div>
-
-                    {/* Quick Links */}
-                    <div>
-                        <h4 className="font-display font-bold text-white mb-8 uppercase tracking-[0.2em] text-[10px] text-luxury-gold">
-                            {t('footer.quickLinks')}
-                        </h4>
-                        <ul className="space-y-4">
-                            <li><Link to="/fleet" className="text-gray-500 hover:text-white transition-colors text-xs font-medium tracking-wide">{t('nav.fleet')}</Link></li>
-                            <li><Link to="/services" className="text-gray-500 hover:text-white transition-colors text-xs font-medium tracking-wide">{t('nav.services') || 'SERVIZI'}</Link></li>
-                            <li><Link to="/locations" className="text-gray-500 hover:text-white transition-colors text-xs font-medium tracking-wide">{t('nav.locations')}</Link></li>
-                            <li><Link to="/about" className="text-gray-500 hover:text-white transition-colors text-xs font-medium tracking-wide">{t('nav.about')}</Link></li>
-                            <li><Link to="/contact" className="text-gray-500 hover:text-white transition-colors text-xs font-medium tracking-wide">{t('nav.contact')}</Link></li>
-                        </ul>
                     </div>
 
                     {/* Auto per Marca */}
@@ -112,12 +97,16 @@ const Footer: React.FC = () => {
                         </h4>
                         <ul className="space-y-6">
                             <li className="flex items-center text-gray-400 group">
-                                <Phone size={14} className="text-luxury-gold mr-4 group-hover:scale-110 transition-transform" />
-                                <span className="text-xs font-medium tracking-wide">+39 06 1234 5678</span>
+                                <a href="tel:+393206144070" className="flex items-center hover:text-luxury-gold transition-colors">
+                                    <Phone size={14} className="text-luxury-gold mr-4 group-hover:scale-110 transition-transform" />
+                                    <span className="text-xs font-medium tracking-wide">+39 3206144070</span>
+                                </a>
                             </li>
                             <li className="flex items-center text-gray-400 group">
-                                <Mail size={14} className="text-luxury-gold mr-4 group-hover:scale-110 transition-transform" />
-                                <span className="text-xs font-medium tracking-wide text-xs">info@mfluxury.it</span>
+                                <a href="mailto:info@mfitalyluxuryrent.it" className="flex items-center hover:text-luxury-gold transition-colors">
+                                    <Mail size={14} className="text-luxury-gold mr-4 group-hover:scale-110 transition-transform" />
+                                    <span className="text-xs font-medium tracking-wide">info@mfitalyluxuryrent.it</span>
+                                </a>
                             </li>
                             <li className="pt-4">
                                 <p className="text-gray-600 text-[9px] font-bold tracking-widest uppercase">MF Italy Luxury Rent S.r.l.</p>

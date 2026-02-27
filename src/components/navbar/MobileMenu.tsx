@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../../hooks/useLanguage';
+import logoMain from '../../assets/images/branding/logo_main.png';
 
 interface NavLinkData {
     name: string;
@@ -39,16 +40,9 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, navLinks }) =>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                     </button>
 
-                    {/* Logo */}
+                    {/* Logo icon */}
                     <div className="absolute top-6 left-6 scale-90 origin-top-left opacity-90">
-                        <div className="flex flex-col items-start">
-                            <div className="font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-luxury-gold via-luxury-gold-light to-luxury-gold tracking-[0.3em] text-2xl leading-none drop-shadow-[0_2px_10px_rgba(212,175,55,0.3)]">
-                                MF
-                            </div>
-                            <div className="font-display font-bold text-luxury-gold text-[8px] tracking-[0.5em] mt-0.5 opacity-90">
-                                ITALY LUXURY RENT
-                            </div>
-                        </div>
+                        <img src={logoMain} alt="MF" className="h-8 object-contain" />
                     </div>
 
                     <div className="flex flex-col space-y-6 text-center">

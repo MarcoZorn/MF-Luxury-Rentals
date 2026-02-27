@@ -20,6 +20,7 @@ const Sitemap: React.FC = () => {
             title: t('nav.fleet'),
             links: [
                 { name: t('featured.viewAll'), path: '/fleet' },
+                { name: 'Bugatti Chiron (VIP)', path: '/bugatti-chiron' },
                 { name: 'Ferrari', path: '/fleet?brand=ferrari' },
                 { name: 'Lamborghini', path: '/fleet?brand=lamborghini' },
                 { name: 'Porsche', path: '/fleet?brand=porsche' },

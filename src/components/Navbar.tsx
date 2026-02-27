@@ -40,8 +40,8 @@ const Navbar: React.FC = () => {
     const navLinks = [
         { name: t('nav.home'), path: '/' },
         { name: t('nav.fleet'), path: '/fleet' },
-        { name: t('nav.services'), path: '/services' },
         { name: t('nav.locations'), path: '/locations' },
+        { name: t('nav.services'), path: '/services' },
         { name: t('nav.about'), path: '/about' },
         { name: t('nav.contact'), path: '/contact' },
     ];
@@ -120,13 +120,13 @@ const Navbar: React.FC = () => {
                         </div>
 
                         {/* Phone - visible on lg+ */}
-                        <a href="tel:+390123456789" className="hidden lg:flex items-center text-white/90 hover:text-luxury-gold transition-colors group">
+                        <a href="tel:+393206144070" className="hidden lg:flex items-center text-white/90 hover:text-luxury-gold transition-colors group">
                             <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center group-hover:border-luxury-gold mr-3 transition-colors">
                                 <Phone size={16} />
                             </div>
                             <div className="text-left">
                                 <p className="text-[10px] text-gray-500 font-bold tracking-widest uppercase mb-0.5">Contact Us</p>
-                                <p className="text-sm font-bold tracking-wider">+39 012 345 6789</p>
+                                <p className="text-sm font-bold tracking-wider">+39 3206144070</p>
                             </div>
                         </a>
 
