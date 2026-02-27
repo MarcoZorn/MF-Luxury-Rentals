@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { cars } from '../data/cars';
 import CarCard from '../components/CarCard';
 import { useLanguage } from '../hooks/useLanguage';
@@ -91,57 +91,6 @@ const Fleet: React.FC = () => {
             </div>
 
             <div className="container mx-auto px-6">
-                {/* Exclusive Bugatti Entry */}
-                {chironCar && !searchQuery && selectedCategory === "TUTTE" && (
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.95 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        viewport={{ once: true }}
-                        className="mb-32 relative group"
-                    >
-                        <div className="absolute inset-0 bg-gradient-to-r from-luxury-gold/20 via-transparent to-luxury-gold/20 blur-[100px] opacity-30 pointer-events-none" />
-                        <Link to={`/cars/${chironCar.id}`} className="block">
-                            <div className="bg-white/5 backdrop-blur-3xl rounded-[4rem] overflow-hidden border border-luxury-gold/30 hover:border-luxury-gold transition-all duration-700 p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center gap-12 relative shadow-2xl">
-                                <div className="absolute top-10 right-10 bg-luxury-gold text-black px-6 py-2 rounded-full font-black text-[10px] tracking-[0.3em] uppercase animate-pulse">
-                                    HYPERCAR CLUB
-                                </div>
-                                <div className="w-full lg:w-3/5 aspect-[16/9] rounded-[2.5rem] overflow-hidden shadow-2xl relative">
-                                    <img
-                                        src={chironCar.image}
-                                        alt={chironCar.name}
-                                        className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-110"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                                </div>
-                                <div className="w-full lg:w-2/5 flex flex-col items-start">
-                                    <span className="text-luxury-gold font-bold tracking-[0.5em] uppercase mb-6 text-[10px]">THE PINNACLE</span>
-                                    <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-8 tracking-tighter uppercase leading-tight">
-                                        {chironCar.name}
-                                    </h2>
-                                    <div className="grid grid-cols-2 gap-8 mb-10 w-full">
-                                        <div>
-                                            <p className="text-gray-500 text-[10px] uppercase tracking-widest mb-1">Power</p>
-                                            <p className="text-white font-bold text-xl">{chironCar.specs.power}</p>
-                                        </div>
-                                        <div>
-                                            <p className="text-gray-500 text-[10px] uppercase tracking-widest mb-1">0-100 km/h</p>
-                                            <p className="text-white font-bold text-xl">{chironCar.specs.acceleration}</p>
-                                        </div>
-                                    </div>
-                                    <div className="w-full h-px bg-white/10 mb-10" />
-                                    <div className="flex items-center justify-between w-full">
-                                        <div>
-                                            <p className="text-luxury-gold font-black text-2xl tracking-tighter uppercase">{t('carCard.onRequest')}</p>
-                                        </div>
-                                        <div className="bg-luxury-gold/10 border border-luxury-gold/50 text-luxury-gold px-10 py-4 rounded-2xl font-black text-[10px] tracking-[0.2em] uppercase group-hover:bg-luxury-gold group-hover:text-black transition-all">
-                                            {t('carCard.details')}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </Link>
-                    </motion.div>
-                )}
 
                 {/* Search & Sort Controls */}
                 <div className="bg-luxury-black/50 backdrop-blur-xl border border-white/5 p-6 rounded-2xl mb-12 shadow-2xl">
@@ -238,6 +187,47 @@ const Fleet: React.FC = () => {
                             Reset filtri
                         </button>
                     </div>
+                )}
+
+                {/* Bugatti Exclusive Section */}
+                {chironCar && !searchQuery && (selectedCategory === "TUTTE" || selectedCategory === "luxury") && (
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="mt-32 relative overflow-hidden rounded-[3rem] border border-luxury-gold/20 bg-gradient-to-br from-luxury-black via-gray-900 to-luxury-black p-8 md:p-16 shadow-[0_0_50px_rgba(212,175,55,0.1)]"
+                    >
+                        <div className="absolute top-0 right-0 w-96 h-96 bg-luxury-gold/5 blur-[100px] -mr-48 -mt-48" />
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                            <div className="order-2 lg:order-1">
+                                <span className="text-luxury-gold font-bold tracking-[0.5em] uppercase mb-4 block text-[10px]">{t('fleet.exclusiveSection.tag')}</span>
+                                <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-6 tracking-tighter uppercase leading-none">
+                                    {t('fleet.exclusiveSection.title')}<br />
+                                    <span className="text-luxury-gold">{t('fleet.exclusiveSection.subtitle')}</span>
+                                </h2>
+                                <p className="text-gray-400 text-lg font-light mb-10 max-w-md leading-relaxed">
+                                    {t('fleet.exclusiveSection.desc')}
+                                </p>
+                                <button
+                                    onClick={() => {
+                                        window.location.href = '/bugatti-chiron';
+                                    }}
+                                    className="px-10 py-5 bg-luxury-gold text-black font-black tracking-widest text-sm rounded-full hover:scale-105 active:scale-95 transition-all shadow-[0_0_30px_rgba(212,175,55,0.3)] uppercase"
+                                >
+                                    {t('fleet.exclusiveSection.cta')}
+                                </button>
+                            </div>
+                            <div className="order-1 lg:order-2 relative group">
+                                <div className="absolute inset-0 bg-luxury-gold/5 blur-3xl group-hover:bg-luxury-gold/10 transition-all duration-700" />
+                                <img
+                                    src={chironCar.image}
+                                    alt="Bugatti Chiron"
+                                    className="relative z-10 w-full h-auto object-contain scale-110 group-hover:scale-115 transition-transform duration-1000"
+                                />
+                                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-4/5 h-8 bg-black/40 blur-2xl rounded-full" />
+                            </div>
+                        </div>
+                    </motion.div>
                 )}
             </div>
         </div>

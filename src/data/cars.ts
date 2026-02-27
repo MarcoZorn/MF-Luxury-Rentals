@@ -1,57 +1,118 @@
-import rsq8_1 from '../assets/images/cars/audi-rsq8-1.png';
-import rsq8_2 from '../assets/images/cars/audi-rsq8-2.png';
-import q8_1 from '../assets/images/cars/audi-q8-1.png';
-import q8_2 from '../assets/images/cars/audi-q8-2.png';
-import cayenne_1 from '../assets/images/cars/porsche-cayenne-1.png';
-import cayenne_2 from '../assets/images/cars/porsche-cayenne-2.png';
-import g63_1 from '../assets/images/cars/mercedes-g63-1.png';
-import g63_2 from '../assets/images/cars/mercedes-g63-2.png';
-import levante_1 from '../assets/images/cars/maserati-levante-1.png';
-import levante_2 from '../assets/images/cars/maserati-levante-2.png';
-import urus_1 from '../assets/images/cars/lamborghini-urus-1.png';
-import urus_2 from '../assets/images/cars/lamborghini-urus-2.png';
-import macan_1 from '../assets/images/cars/porsche-macan-1.png';
-import rsq3_1 from '../assets/images/cars/audi-rsq3-1.png';
-import purosangue_2 from '../assets/images/cars/ferrari-purosangue-2.jpg';
-import m4_1 from '../assets/images/cars/bmw-m4-1.png';
+import sf90_off from '../assets/images/cars/ferrari_sf90_stradale_off.png';
+import sf90_on from '../assets/images/cars/ferrari_sf90_stradale_on.png';
+import revuelto_off from '../assets/images/cars/lamborghini_revuelto_off.png';
+import revuelto_on from '../assets/images/cars/lamborghini_revuelto_on.png';
+import r8_off from '../assets/images/cars/audi_r8_v10_off.png';
+import r8_on from '../assets/images/cars/audi_r8_v10_on.png';
+import rsq8_off from '../assets/images/cars/audi_rsq8_off.png';
+import rsq8_on from '../assets/images/cars/audi_rsq8_on.png';
+import q8_off from '../assets/images/cars/Audi_Q8_S-line_off.png';
+import q8_on from '../assets/images/cars/Audi_Q8_S-line_on.png';
+import cayenne_off from '../assets/images/cars/Porsche_Cayenne_Coupe_Turbo_Gt_off.png';
+import cayenne_on from '../assets/images/cars/Porsche_Cayenne_Coupe_Turbo_gt_on.png';
+import g63_off from '../assets/images/cars/mercedes_G63_AMG_off.png';
+import g63_on from '../assets/images/cars/Mercedes_G63_AMG_on.png';
+import levante_off from '../assets/images/cars/Maserati_Levante_GTS_off.png';
+import levante_on from '../assets/images/cars/Maserati_Levante_gts_on.png';
+import urus_off from '../assets/images/cars/Lamborghini_urus_s_off.png';
+import urus_on from '../assets/images/cars/lamborghini_urus_s_on.png';
+import macan_off from '../assets/images/cars/Porsche_Macan_S_off.png';
+import macan_on from '../assets/images/cars/Porsche_macan_s_on.png';
+import rsq3_off from '../assets/images/cars/audi_rsq3_sportback_off.png';
+import rsq3_on from '../assets/images/cars/audi_rsq3_sportback_on.png';
+import purosangue_off from '../assets/images/cars/ferrari_purosangue_off.png';
+import purosangue_on from '../assets/images/cars/ferrari_purosangue_on.png';
+import m4_off from '../assets/images/cars/bmw_m4_competition_off.png';
+import m4_on from '../assets/images/cars/bmw_m4_competition_on.png';
 import rs3_off from '../assets/images/cars/audi_rs3_off.png';
-import rs3_2 from '../assets/images/cars/audi-rs3-2.jpg';
-import rs6_1 from '../assets/images/cars/audi-rs6-1.png';
-import m8_1 from '../assets/images/cars/bmw-m8-1.png';
-import spyder718_1 from '../assets/images/cars/porsche-718-1.png';
-import p911_1 from '../assets/images/cars/porsche-911-1.png';
-import p911_2 from '../assets/images/cars/porsche-911-2.png';
-import sf90_1 from '../assets/images/cars/ferrari-sf90-1.png';
-import sf90_2 from '../assets/images/cars/ferrari-sf90-2.png';
-import roma_1 from '../assets/images/cars/ferrari-roma-1.png';
-import roma_2 from '../assets/images/cars/ferrari-roma-2.png';
-import huracan_1 from '../assets/images/cars/lamborghini-huracan-1.png';
-import f296_1 from '../assets/images/cars/ferrari-296-1.png';
-import f812_1 from '../assets/images/cars/ferrari-812-1.png';
-import revuelto_1 from '../assets/images/cars/lamborghini-revuelto-1.png';
-import revuelto_2 from '../assets/images/cars/lamborghini-revuelto-2.png';
-import portofino_1 from '../assets/images/cars/ferrari-portofino-1.png';
-import continental_1 from '../assets/images/cars/bentley-continental-1.png';
-import grancabrio_1 from '../assets/images/cars/maserati-grancabrio-1.png';
-import f8_1 from '../assets/images/cars/ferrari-f8-1.png';
 import rs3_on from '../assets/images/cars/audi_rs3_on.png';
-import bugatti_chiron from '../assets/images/cars/bugatti-chiron-cinematic.png';
+import rs6_off from '../assets/images/cars/audi_rs6_performance_off.png';
+import rs6_on from '../assets/images/cars/audi_rs6_performance_on.png';
+import m8_off from '../assets/images/cars/bmw_m8_competion_cabrio_off.png';
+import m8_on from '../assets/images/cars/bmw_m8_competition_cabrio_on.png';
+import spyder718_off from '../assets/images/cars/porsche_boxster_718_spyder_off.png';
+import spyder718_on from '../assets/images/cars/porsche_boxter_718_spyder_on.png';
+import huracan_off from '../assets/images/cars/Lamborghini_huracan_evo_spyder_off.png';
+import huracan_on from '../assets/images/cars/lamborghini_huracan_evo_spyder_on.png';
+import p911_cabrio_off from '../assets/images/cars/porsche_992_4s_cabrio_off.png';
+import p911_cabrio_on from '../assets/images/cars/porsche_992_4s_cabrio_on.png';
+import p911_coupe_off from '../assets/images/cars/porsche_992_4s_off.png';
+import p911_coupe_on from '../assets/images/cars/porsche_992_4s_on.png';
+import f296_off from '../assets/images/cars/ferrari_296_gtb_off.png';
+import f296_on from '../assets/images/cars/ferrari_296_gtb_on.png';
+import f812_off from '../assets/images/cars/ferrari_816_gts_off.png';
+import f812_on from '../assets/images/cars/ferrari_816_gts_on.png';
+import portofino_off from '../assets/images/cars/ferrari_portofino_m_off.png';
+import portofino_on from '../assets/images/cars/ferrari_portofino_m_on.png';
+import continental_off from '../assets/images/cars/bentley_continental_gt_off.png';
+import continental_on from '../assets/images/cars/bentley_continental_gt_on.png';
+import grancabrio_off from '../assets/images/cars/maserati_gran_cabrio_off.png';
+import grancabrio_on from '../assets/images/cars/maserati_gran_cabrio_on.png';
+import f8_off from '../assets/images/cars/ferrari_f8_tributo_off.png';
+import f8_on from '../assets/images/cars/ferrari_f8_tributo_on.png';
+import roma_off from '../assets/images/cars/ferrari_roma_off.png';
+import roma_on from '../assets/images/cars/ferrari_roma_on.png';
+import chiron_off from '../assets/images/cars/bugatti_chiron_cinematic_off.png';
+import chiron_on from '../assets/images/cars/bugatti_chiron_cinematic_on.png';
 
 export const cars = [
-    // SUV
+    {
+        id: 'ferrari-sf90-stradale',
+        name: 'Ferrari SF90 Stradale',
+        category: 'LUXURY',
+        categoryKey: 'luxury',
+        tags: ['luxury'],
+        image: sf90_off,
+        hoverImage: sf90_on,
+        backupImage: sf90_on,
+        specs: { power: '1000 CV', acceleration: '2.5s', speed: '340 km/h', engine: '3990cc' },
+        pricePerDay: 3000,
+        audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
+        modelUrl: 'https://sketchfab.com/models/91dac0d8576c4c69a7a74ad585732b43/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
+        descriptionKey: 'sf90',
+    },
+    {
+        id: 'lamborghini-revuelto',
+        name: 'Lamborghini Revuelto',
+        category: 'LUXURY',
+        categoryKey: 'luxury',
+        tags: ['luxury'],
+        image: revuelto_off,
+        hoverImage: revuelto_on,
+        backupImage: revuelto_on,
+        specs: { power: '1015 CV', acceleration: '2.5s', speed: '350 km/h', engine: '6498cc' },
+        pricePerDay: 3500,
+        audio: 'https://cdn.pixabay.com/audio/2022/03/15/audio_2984918e6c.mp3',
+        modelUrl: 'https://sketchfab.com/models/66397d7779204193817dbbdbab9a7c91/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
+        descriptionKey: 'revuelto',
+    },
+    {
+        id: 'audi-r8-v10-performance',
+        name: 'Audi R8 V10 Performance',
+        category: 'LUXURY',
+        categoryKey: 'luxury',
+        tags: ['luxury'],
+        image: r8_off,
+        hoverImage: r8_on,
+        specs: { power: '620 CV', acceleration: '3.2s', speed: '330 km/h', engine: '5204cc' },
+        pricePerDay: 1300,
+        audio: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c8e7c1f8f3.mp3',
+        modelUrl: 'https://sketchfab.com/models/486e4105efb849b7aeb126c5526160df/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
+        descriptionKey: 'r8',
+    },
     {
         id: 'audi-rsq8',
         name: 'Audi RSQ8',
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: rsq8_1,
-        hoverImage: rsq8_2,
-        backupImage: rsq8_2,
+        image: rsq8_off,
+        hoverImage: rsq8_on,
+        backupImage: rsq8_on,
         specs: { power: '600 CV', acceleration: '3.8s', speed: '305 km/h', engine: '3996cc' },
         pricePerDay: 800,
         audio: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c36e885141.mp3',
-        modelUrl: 'https://sketchfab.com/models/486e4105efb849b7aeb126c5526160df/embed',
+        modelUrl: 'https://sketchfab.com/models/486e4105efb849b7aeb126c5526160df/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'rsq8',
     },
     {
@@ -60,13 +121,13 @@ export const cars = [
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: q8_1,
-        hoverImage: q8_2,
-        backupImage: q8_2,
+        image: q8_off,
+        hoverImage: q8_on,
+        backupImage: q8_on,
         specs: { power: '286 CV', acceleration: '6.3s', speed: '245 km/h', engine: '2967cc' },
         pricePerDay: 400,
         audio: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c36e885141.mp3',
-        modelUrl: 'https://sketchfab.com/models/d205c5a4b65a48a89589d21de6776945/embed',
+        modelUrl: 'https://sketchfab.com/models/d205c5a4b65a48a89589d21de6776945/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'q8',
     },
     {
@@ -75,13 +136,13 @@ export const cars = [
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: cayenne_1,
-        hoverImage: cayenne_2,
-        backupImage: cayenne_2,
+        image: cayenne_off,
+        hoverImage: cayenne_on,
+        backupImage: cayenne_on,
         specs: { power: '640 CV', acceleration: '3.3s', speed: '300 km/h', engine: '3996cc' },
         pricePerDay: 1200,
         audio: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c36e885141.mp3',
-        modelUrl: 'https://sketchfab.com/models/fe161f7b3a6544a5ba2b8c387bb0b6b3/embed',
+        modelUrl: 'https://sketchfab.com/models/fe161f7b3a6544a5ba2b8c387bb0b6b3/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'cayenne',
     },
     {
@@ -90,13 +151,13 @@ export const cars = [
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: g63_1,
-        hoverImage: g63_2,
-        backupImage: g63_2,
+        image: g63_off,
+        hoverImage: g63_on,
+        backupImage: g63_on,
         specs: { power: '585 CV', acceleration: '4.5s', speed: '220 km/h', engine: '3982cc' },
         pricePerDay: 1100,
         audio: 'https://cdn.pixabay.com/audio/2023/06/15/audio_73f009e992.mp3',
-        modelUrl: 'https://sketchfab.com/models/0614332614e04ff98a1f3d20c0bd0315/embed',
+        modelUrl: 'https://sketchfab.com/models/0614332614e04ff98a1f3d20c0bd0315/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'g63',
     },
     {
@@ -105,13 +166,13 @@ export const cars = [
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: levante_1,
-        hoverImage: levante_2,
-        backupImage: levante_2,
+        image: levante_off,
+        hoverImage: levante_on,
+        backupImage: levante_on,
         specs: { power: '530 CV', acceleration: '4.3s', speed: '291 km/h', engine: '3799cc' },
         pricePerDay: 450,
         audio: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c36e885141.mp3',
-        modelUrl: 'https://sketchfab.com/models/e0499e4fd95946929e71b25ec1456531/embed',
+        modelUrl: 'https://sketchfab.com/models/e0499e4fd95946929e71b25ec1456531/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'levante',
     },
     {
@@ -120,13 +181,13 @@ export const cars = [
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: urus_1,
-        hoverImage: urus_2,
-        backupImage: urus_2,
+        image: urus_off,
+        hoverImage: urus_on,
+        backupImage: urus_on,
         specs: { power: '666 CV', acceleration: '3.5s', speed: '305 km/h', engine: '3996cc' },
         pricePerDay: 1500,
         audio: 'https://cdn.pixabay.com/audio/2023/06/15/audio_73f009e992.mp3',
-        modelUrl: 'https://sketchfab.com/models/c9c3ed91224e4980b87b340b9239c908/embed',
+        modelUrl: 'https://sketchfab.com/models/c9c3ed91224e4980b87b340b9239c908/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'urus',
     },
     {
@@ -135,12 +196,12 @@ export const cars = [
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: macan_1,
-        hoverImage: macan_1,
+        image: macan_off,
+        hoverImage: macan_on,
         specs: { power: '380 CV', acceleration: '4.6s', speed: '259 km/h', engine: '2894cc' },
         pricePerDay: 350,
         audio: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c36e885141.mp3',
-        modelUrl: 'https://sketchfab.com/models/df2f6094dccc41a68b1cd57b331e303b/embed',
+        modelUrl: 'https://sketchfab.com/models/df2f6094dccc41a68b1cd57b331e303b/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'macan',
     },
     {
@@ -149,12 +210,12 @@ export const cars = [
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: rsq3_1,
-        hoverImage: rsq3_1,
+        image: rsq3_off,
+        hoverImage: rsq3_on,
         specs: { power: '400 CV', acceleration: '4.5s', speed: '250 km/h', engine: '2480cc' },
         pricePerDay: 300,
         audio: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c36e885141.mp3',
-        modelUrl: 'https://sketchfab.com/models/f1a0fc6c4db746af83da33d073b60f4b/embed',
+        modelUrl: 'https://sketchfab.com/models/f1a0fc6c4db746af83da33d073b60f4b/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'rsq3',
     },
     {
@@ -163,28 +224,26 @@ export const cars = [
         category: 'SUV',
         categoryKey: 'suv',
         tags: ['suv'],
-        image: purosangue_2,
-        hoverImage: purosangue_2,
+        image: purosangue_off,
+        hoverImage: purosangue_on,
         specs: { power: '725 CV', acceleration: '3.3s', speed: '310 km/h', engine: '6496cc' },
         pricePerDay: 2500,
         audio: 'https://cdn.pixabay.com/audio/2022/03/15/audio_2984918e6c.mp3',
-        modelUrl: 'https://sketchfab.com/models/ae0b0c60864945518cdf099d700347bb/embed',
+        modelUrl: 'https://sketchfab.com/models/ae0b0c60864945518cdf099d700347bb/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'purosangue',
     },
-
-    // PRESTIGE
     {
         id: 'bmw-m4-competition',
         name: 'BMW M4 Competition',
         category: 'PRESTIGE',
         categoryKey: 'prestige',
         tags: ['prestige'],
-        image: m4_1,
-        hoverImage: m4_1,
+        image: m4_off,
+        hoverImage: m4_on,
         specs: { power: '510 CV', acceleration: '3.5s', speed: '290 km/h', engine: '2993cc' },
         pricePerDay: 500,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/6b4d1393bd7c437eb6fc37bf937d96b2/embed',
+        modelUrl: 'https://sketchfab.com/models/6b4d1393bd7c437eb6fc37bf937d96b2/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'm4',
     },
     {
@@ -195,11 +254,10 @@ export const cars = [
         tags: ['prestige'],
         image: rs3_off,
         hoverImage: rs3_on,
-        backupImage: rs3_2,
         specs: { power: '400 CV', acceleration: '3.8s', speed: '290 km/h', engine: '2480cc' },
         pricePerDay: 350,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/1dc04230802b4a3eba820f5df34cc197/embed',
+        modelUrl: 'https://sketchfab.com/models/1dc04230802b4a3eba820f5df34cc197/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'rs3',
     },
     {
@@ -208,12 +266,12 @@ export const cars = [
         category: 'PRESTIGE',
         categoryKey: 'prestige',
         tags: ['prestige'],
-        image: rs6_1,
-        hoverImage: rs6_1, // Fallback to brightness glow in UI if no _2
+        image: rs6_off,
+        hoverImage: rs6_on,
         specs: { power: '630 CV', acceleration: '3.4s', speed: '280 km/h', engine: '3996cc' },
         pricePerDay: 800,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/0ac71efc8c584f6f87175c1b653be171/embed',
+        modelUrl: 'https://sketchfab.com/models/0ac71efc8c584f6f87175c1b653be171/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'rs6',
     },
     {
@@ -222,12 +280,12 @@ export const cars = [
         category: 'PRESTIGE',
         categoryKey: 'prestige',
         tags: ['prestige', 'cabrio'],
-        image: m8_1,
-        hoverImage: m8_1,
+        image: m8_off,
+        hoverImage: m8_on,
         specs: { power: '625 CV', acceleration: '3.3s', speed: '305 km/h', engine: '4395cc' },
         pricePerDay: 900,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/77dc36fe3156451c9c6eca37bace51dd/embed',
+        modelUrl: 'https://sketchfab.com/models/77dc36fe3156451c9c6eca37bace51dd/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'm8',
     },
     {
@@ -236,43 +294,54 @@ export const cars = [
         category: 'PRESTIGE',
         categoryKey: 'prestige',
         tags: ['prestige', 'cabrio'],
-        image: spyder718_1,
-        hoverImage: spyder718_1,
+        image: spyder718_off,
+        hoverImage: spyder718_on,
         specs: { power: '420 CV', acceleration: '4.4s', speed: '301 km/h', engine: '3995cc' },
         pricePerDay: 400,
         audio: 'https://cdn.pixabay.com/audio/2022/10/30/audio_2e0f498261.mp3',
-        modelUrl: 'https://sketchfab.com/models/1a87f610bb854c6395ed8b03ba8e1965/embed',
+        modelUrl: 'https://sketchfab.com/models/1a87f610bb854c6395ed8b03ba8e1965/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'spyder718',
     },
-
-    // LUXURY
     {
         id: 'lamborghini-huracan-evo-spyder',
         name: 'Lamborghini Huracán EVO Spyder',
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury', 'cabrio'],
-        image: huracan_1,
-        hoverImage: huracan_1, // Fallback to brightness glow in UI
+        image: huracan_off,
+        hoverImage: huracan_on,
         specs: { power: '640 CV', acceleration: '3.1s', speed: '325 km/h', engine: '5204cc' },
         pricePerDay: 1200,
         audio: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c8e7c1f8f3.mp3',
-        modelUrl: 'https://sketchfab.com/models/20f4c0b4772d424b9a1f592c3a9cfa4d/embed',
+        modelUrl: 'https://sketchfab.com/models/20f4c0b4772d424b9a1f592c3a9cfa4d/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'huracan',
     },
     {
-        id: 'porsche-992-4s-cabrio',
+        id: 'porsche-911-4s-cabrio',
         name: 'Porsche 911 4S Cabrio',
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury', 'cabrio'],
-        image: p911_1,
-        hoverImage: p911_1,
-        backupImage: p911_2,
+        image: p911_cabrio_off,
+        hoverImage: p911_cabrio_on,
         specs: { power: '450 CV', acceleration: '3.6s', speed: '304 km/h', engine: '2981cc' },
         pricePerDay: 700,
         audio: 'https://cdn.pixabay.com/audio/2022/10/30/audio_2e0f498261.mp3',
-        modelUrl: 'https://sketchfab.com/models/96767756168c49c388d8323632b2c726/embed',
+        modelUrl: 'https://sketchfab.com/models/96767756168c49c388d8323632b2c726/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
+        descriptionKey: 'p911',
+    },
+    {
+        id: 'porsche-911-4s-coupe',
+        name: 'Porsche 911 4S Coupe',
+        category: 'LUXURY',
+        categoryKey: 'luxury',
+        tags: ['luxury'],
+        image: p911_coupe_off,
+        hoverImage: p911_coupe_on,
+        specs: { power: '450 CV', acceleration: '3.4s', speed: '306 km/h', engine: '2981cc' },
+        pricePerDay: 650,
+        audio: 'https://cdn.pixabay.com/audio/2022/10/30/audio_2e0f498261.mp3',
+        modelUrl: 'https://sketchfab.com/models/6987f7bd85e78347e3a9cfa4d/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'p911',
     },
     {
@@ -281,12 +350,12 @@ export const cars = [
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury'],
-        image: f296_1,
-        hoverImage: f296_1,
+        image: f296_off,
+        hoverImage: f296_on,
         specs: { power: '830 CV', acceleration: '2.9s', speed: '330 km/h', engine: '2992cc' },
         pricePerDay: 1600,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/269f4fd01b584dd38f7e512de60c4645/embed',
+        modelUrl: 'https://sketchfab.com/models/269f4fd01b584dd38f7e512de60c4645/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'f296',
     },
     {
@@ -295,12 +364,12 @@ export const cars = [
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury', 'cabrio'],
-        image: f812_1,
-        hoverImage: f812_1,
+        image: f812_off,
+        hoverImage: f812_on,
         specs: { power: '800 CV', acceleration: '3.0s', speed: '340 km/h', engine: '6496cc' },
         pricePerDay: 2200,
         audio: 'https://cdn.pixabay.com/audio/2022/03/15/audio_2984918e6c.mp3',
-        modelUrl: 'https://sketchfab.com/models/91ed463e1c6a4ef688e97cc011873fe0/embed',
+        modelUrl: 'https://sketchfab.com/models/91ed463e1c6a4ef688e97cc011873fe0/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'f812',
     },
     {
@@ -309,12 +378,12 @@ export const cars = [
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury', 'cabrio'],
-        image: portofino_1,
-        hoverImage: portofino_1,
+        image: portofino_off,
+        hoverImage: portofino_on,
         specs: { power: '620 CV', acceleration: '3.4s', speed: '320 km/h', engine: '3855cc' },
         pricePerDay: 1000,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/b45aff7d39904688817c2cbe4222d5fb/embed',
+        modelUrl: 'https://sketchfab.com/models/b45aff7d39904688817c2cbe4222d5fb/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'portofino',
     },
     {
@@ -323,12 +392,12 @@ export const cars = [
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury'],
-        image: continental_1,
-        hoverImage: continental_1,
+        image: continental_off,
+        hoverImage: continental_on,
         specs: { power: '659 CV', acceleration: '3.6s', speed: '335 km/h', engine: '5950cc' },
         pricePerDay: 1200,
         audio: 'https://cdn.pixabay.com/audio/2022/03/15/audio_2984918e6c.mp3',
-        modelUrl: 'https://sketchfab.com/models/fd4d368c21a8404f97b8e107bf5b32f0/embed',
+        modelUrl: 'https://sketchfab.com/models/fd4d368c21a8404f97b8e107bf5b32f0/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'continental',
     },
     {
@@ -337,28 +406,13 @@ export const cars = [
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury', 'cabrio'],
-        image: grancabrio_1,
-        hoverImage: grancabrio_1,
+        image: grancabrio_off,
+        hoverImage: grancabrio_on,
         specs: { power: '460 CV', acceleration: '4.9s', speed: '288 km/h', engine: '4691cc' },
         pricePerDay: 800,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/89a7286743704251bdcdc7d28380ca09/embed',
+        modelUrl: 'https://sketchfab.com/models/89a7286743704251bdcdc7d28380ca09/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'grancabrio',
-    },
-    {
-        id: 'ferrari-sf90-stradale',
-        name: 'Ferrari SF90 Stradale',
-        category: 'LUXURY',
-        categoryKey: 'luxury',
-        tags: ['luxury'],
-        image: sf90_1,
-        hoverImage: sf90_2,
-        backupImage: sf90_2,
-        specs: { power: '1000 CV', acceleration: '2.5s', speed: '340 km/h', engine: '3990cc' },
-        pricePerDay: 3000,
-        audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/91dac0d8576c4c69a7a74ad585732b43/embed',
-        descriptionKey: 'sf90',
     },
     {
         id: 'ferrari-f8-tributo',
@@ -366,28 +420,13 @@ export const cars = [
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury'],
-        image: f8_1,
-        hoverImage: f8_1,
+        image: f8_off,
+        hoverImage: f8_on,
         specs: { power: '720 CV', acceleration: '2.9s', speed: '340 km/h', engine: '3902cc' },
         pricePerDay: 1300,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/ee7976e18987484d85e78347e3a9cfa4d/embed',
+        modelUrl: 'https://sketchfab.com/models/ee7976e18987484d85e78347e3a9cfa4d/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'f8tributo',
-    },
-    {
-        id: 'lamborghini-revuelto',
-        name: 'Lamborghini Revuelto',
-        category: 'LUXURY',
-        categoryKey: 'luxury',
-        tags: ['luxury'],
-        image: revuelto_1,
-        hoverImage: revuelto_2,
-        backupImage: revuelto_2,
-        specs: { power: '1015 CV', acceleration: '2.5s', speed: '350 km/h', engine: '6498cc' },
-        pricePerDay: 3500,
-        audio: 'https://cdn.pixabay.com/audio/2022/03/15/audio_2984918e6c.mp3',
-        modelUrl: 'https://sketchfab.com/models/66397d7779204193817dbbdbab9a7c91/embed',
-        descriptionKey: 'revuelto',
     },
     {
         id: 'ferrari-roma',
@@ -395,25 +434,25 @@ export const cars = [
         category: 'LUXURY',
         categoryKey: 'luxury',
         tags: ['luxury', 'cabrio'],
-        image: roma_1,
-        hoverImage: roma_2,
-        backupImage: roma_2,
+        image: roma_off,
+        hoverImage: roma_on,
         specs: { power: '620 CV', acceleration: '3.4s', speed: '320 km/h', engine: '3855cc' },
         pricePerDay: 1100,
         audio: 'https://cdn.pixabay.com/audio/2022/03/24/audio_756ce225f4.mp3',
-        modelUrl: 'https://sketchfab.com/models/0f8a846c24384a86b3f64fa6ee3a9cfa/embed',
+        modelUrl: 'https://sketchfab.com/models/0f8a846c24384a86b3f64fa6ee3a9cfa/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'roma',
     },
     {
         id: 'bugatti-chiron',
         name: 'Bugatti Chiron',
         category: 'HYPERCAR',
-        categoryKey: 'luxury', // Mapping to luxury for filtering if needed, but we can add special logic
+        categoryKey: 'luxury',
         tags: ['hypercar', 'exclusive'],
-        image: bugatti_chiron,
+        image: chiron_off,
+        hoverImage: chiron_on,
         specs: { power: '1500 CV', acceleration: '2.4s', speed: '420 km/h', engine: '7993cc' },
         pricePerDay: 5000,
-        modelUrl: 'https://sketchfab.com/models/1529a8f4604e4c27a94d8d1797800c8b/embed',
+        modelUrl: 'https://sketchfab.com/models/1529a8f4604e4c27a94d8d1797800c8b/embed?ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0',
         descriptionKey: 'chiron',
     },
 ];
