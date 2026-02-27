@@ -7,17 +7,26 @@ import BookingModal from '../cars/BookingModal';
 import logoLungo from '../../assets/images/branding/logo_lungo.png';
 
 interface HeroProps {
-    poster: string;
+    poster?: string;
 }
 
-const Hero: React.FC<HeroProps> = ({ poster }) => {
+const Hero: React.FC<HeroProps> = () => {
     const { t } = useLanguage();
     const [showBookingModal, setShowBookingModal] = useState(false);
 
     const scrollToFleet = () => {
         const fleetSection = document.getElementById('parco-auto');
         if (fleetSection) {
-            fleetSection.scrollIntoView({ behavior: 'smooth' });
+            const offset = 80;
+            const bodyRect = document.body.getBoundingClientRect().top;
+            const elementRect = fleetSection.getBoundingClientRect().top;
+            const elementPosition = elementRect - bodyRect;
+            const offsetPosition = elementPosition - offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
         }
     };
 
@@ -31,10 +40,9 @@ const Hero: React.FC<HeroProps> = ({ poster }) => {
                     loop
                     muted
                     playsInline
-                    poster={poster}
                     className="w-full h-full object-cover scale-110 opacity-60"
                 >
-                    <source src="https://cdn.coverr.co/videos/coverr-driving-through-the-city-at-night-4546/1080p.mp4" type="video/mp4" />
+                    <source src="/videos/hero.mp4" type="video/mp4" />
                 </video>
             </div>
 
@@ -68,9 +76,9 @@ const Hero: React.FC<HeroProps> = ({ poster }) => {
                         MF ITALY LUXURY RENT
                     </motion.span>
 
-                    <h1 className="text-4xl md:text-6xl lg:text-[70px] leading-[1.1] mb-8 font-black tracking-tighter uppercase whitespace-pre-line">
+                    <h1 className="text-3xl md:text-5xl lg:text-[50px] leading-[1.1] mb-8 font-black tracking-tighter uppercase whitespace-pre-line">
                         {t('hero.title1')}{"\n"}
-                        <span className="text-luxury-gold text-glow">{t('hero.title2')}</span>
+                        <span className="text-luxury-gold text-glow font-extrabold">{t('hero.title2')}</span>
                     </h1>
 
                     <p className="text-base md:text-lg text-white/70 mb-12 max-w-2xl mx-auto font-medium leading-relaxed">

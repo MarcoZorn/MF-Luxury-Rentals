@@ -15,10 +15,10 @@ const Contact: React.FC = () => {
 
     // Find the specific location data, or default to Rome (first one)
     const activeLocation = city && !isVip
-        ? locations.find(l => l.city.toLowerCase() === city.toLowerCase()) || locations[0]
+        ? locations.find(l => l.id === city.toLowerCase()) || locations[0]
         : locations[0]; // Default to HQ
 
-    const cityKey = activeLocation.city.toLowerCase();
+    const cityKey = activeLocation.id;
 
     // Scroll to top on mount
     useEffect(() => {
@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
                 {/* VIP Ambient Background */}
                 <div className="absolute inset-0 z-0">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.05)_0%,transparent_70%)]" />
-                    <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.unsplash.com/photo-1621135802920-133df287f89c?w=1600&q=80')] bg-cover bg-fixed opacity-20 grayscale contrast-150 rotate-1 scale-110" />
+                    <div className="absolute top-0 left-0 w-full h-full bg-[url('../assets/images/ui/vip-bg.jpg')] bg-cover bg-fixed opacity-20 grayscale contrast-150 rotate-1 scale-110" />
                     <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black" />
                 </div>
 
@@ -63,18 +63,16 @@ const Contact: React.FC = () => {
                             className="h-[1px] bg-luxury-gold mx-auto mb-10"
                         />
                         <span className="text-luxury-gold font-bold tracking-[0.6em] uppercase mb-6 block text-[10px]">
-                            PRIVATE CONCIERGE ACCESS
+                            {t('contactPage.vip.tag')}
                         </span>
                         <h1 className="text-5xl md:text-8xl font-display font-bold mb-8 tracking-tighter uppercase">
-                            BUGATTI CHIRON <br />
-                            <span className="text-luxury-gold italic">VIP PROGRAM</span>
+                            {t('contactPage.vip.titleMain')} <br />
+                            <span className="text-luxury-gold italic">{t('contactPage.vip.titleVip')}</span>
                         </h1>
                         <p className="text-xl text-gray-400 font-light max-w-2xl mx-auto leading-relaxed border-t border-white/10 pt-8 mt-4">
-                            L'accesso alla Bugatti Chiron è limitato a 3 clienti l'anno in Europa. <br />
-                            Lascia i tuoi recapiti per un colloquio conoscitivo d'élite.
+                            {t('contactPage.vip.subtitle')}
                         </p>
                     </motion.div>
-
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -86,39 +84,59 @@ const Contact: React.FC = () => {
                                 <div className="w-24 h-24 bg-luxury-gold/20 rounded-full flex items-center justify-center mb-8 border border-luxury-gold">
                                     <Send size={40} className="text-luxury-gold" />
                                 </div>
-                                <h3 className="text-3xl font-display font-bold text-white mb-4 uppercase tracking-tighter">RICHIESTA REGISTRATA</h3>
+                                <h3 className="text-3xl font-display font-bold text-white mb-4 uppercase tracking-tighter">{t('contactPage.vip.formTitle')}</h3>
                                 <p className="text-gray-400 max-w-md mx-auto">
-                                    Il tuo profilo è ora in fase di valutazione. <br />
-                                    Verrai contattato personalmente entro le prossime 2h.
+                                    {t('contactPage.vip.formSubtitle')}
                                 </p>
                             </div>
                         ) : (
                             <form onSubmit={handleSubmit} className="space-y-12">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                                     <div className="relative group">
-                                        <label className="block text-[9px] font-black text-luxury-gold tracking-[0.4em] uppercase mb-4" htmlFor="vip-name">NOME COMPLETO</label>
-                                        <input id="vip-name" type="text" required className="w-full bg-transparent border-b border-white/20 focus:border-luxury-gold focus:outline-none py-4 text-2xl font-light text-white transition-all placeholder:text-white/5" placeholder="Johnathan Doe" />
+                                        <label className="block text-[10px] font-black text-luxury-gold tracking-[0.4em] uppercase mb-4 opacity-70 group-focus-within:opacity-100 transition-opacity" htmlFor="vip-name">
+                                            {t('contactPage.vip.name')}
+                                        </label>
+                                        <input
+                                            id="vip-name"
+                                            type="text"
+                                            required
+                                            className="w-full bg-transparent border-b border-white/10 focus:border-luxury-gold focus:outline-none py-4 text-2xl font-light text-white transition-all placeholder:text-white/5"
+                                            placeholder="Johnathan Doe"
+                                        />
                                     </div>
                                     <div className="relative group">
-                                        <label className="block text-[9px] font-black text-luxury-gold tracking-[0.4em] uppercase mb-4" htmlFor="vip-phone">RECAPITO TELEFONICO</label>
-                                        <input id="vip-phone" type="tel" required className="w-full bg-transparent border-b border-white/20 focus:border-luxury-gold focus:outline-none py-4 text-2xl font-light text-white transition-all placeholder:text-white/5" placeholder="+39 ..." />
+                                        <label className="block text-[10px] font-black text-luxury-gold tracking-[0.4em] uppercase mb-4 opacity-70 group-focus-within:opacity-100 transition-opacity" htmlFor="vip-phone">
+                                            {t('contactPage.phone')}
+                                        </label>
+                                        <input
+                                            id="vip-phone"
+                                            type="tel"
+                                            required
+                                            className="w-full bg-transparent border-b border-white/10 focus:border-luxury-gold focus:outline-none py-4 text-2xl font-light text-white transition-all placeholder:text-white/5"
+                                            placeholder="+39 ..."
+                                        />
                                     </div>
                                 </div>
 
-                                <div className="relative">
-                                    <label className="block text-[9px] font-black text-luxury-gold tracking-[0.4em] uppercase mb-4" htmlFor="vip-motivation">PERCHÈ DESIDERI LA CHIRON?</label>
+                                <div className="relative group">
+                                    <label className="block text-[10px] font-black text-luxury-gold tracking-[0.4em] uppercase mb-4 opacity-70 group-focus-within:opacity-100 transition-opacity" htmlFor="vip-motivation">
+                                        {t('contactPage.message')}
+                                    </label>
                                     <textarea
                                         id="vip-motivation"
                                         rows={3}
                                         required
-                                        className="w-full bg-transparent border-b border-white/20 focus:border-luxury-gold focus:outline-none py-4 text-xl font-light text-white transition-all resize-none placeholder:text-white/5"
-                                        placeholder="Descrivi la tua passione o l'occasione..."
+                                        className="w-full bg-transparent border-b border-white/10 focus:border-luxury-gold focus:outline-none py-4 text-xl font-light text-white transition-all resize-none placeholder:text-white/5"
+                                        placeholder={t('contactPage.placeholderMessage')}
                                     ></textarea>
                                 </div>
 
                                 <div className="pt-10 flex justify-center">
-                                    <button type="submit" className="px-16 py-6 bg-luxury-gold text-black font-black tracking-[0.3em] text-[10px] rounded-full shadow-[0_20px_60px_rgba(212,175,55,0.3)] hover:shadow-[0_20px_80px_rgba(212,175,55,0.5)] transition-all hover:scale-105 active:scale-95 uppercase">
-                                        RICHIEDI IL CONTATTO DA UN OPERATORE
+                                    <button
+                                        type="submit"
+                                        className="px-16 py-6 bg-luxury-gold text-black font-black tracking-[0.3em] text-[10px] rounded-full shadow-[0_20px_60px_rgba(212,175,55,0.2)] hover:shadow-[0_20px_80px_rgba(212,175,55,0.4)] transition-all hover:scale-105 active:scale-95 uppercase"
+                                    >
+                                        {t('contactPage.sendBtn')} {t('contactPage.hq')}
                                     </button>
                                 </div>
                             </form>
@@ -186,7 +204,7 @@ const Contact: React.FC = () => {
                             />
                             <div className="absolute bottom-10 left-10 z-[1000] pointer-events-none">
                                 <h3 className="text-3xl font-display font-bold text-white mb-2 uppercase tracking-wide drop-shadow-lg">
-                                    {t(`locations.cities.${cityKey}`)} {t('contactPage.hq')}
+                                    {t(`locations.cities.${cityKey}`)} {cityKey === 'roma' || cityKey === 'milano' ? 'HQ' : 'BRANCH'}
                                 </h3>
                                 <p className="text-gray-300 font-light tracking-wide drop-shadow-md">{activeLocation.address}</p>
                             </div>
@@ -200,7 +218,9 @@ const Contact: React.FC = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-display font-bold text-sm text-gray-500 mb-1 uppercase tracking-widest">{t('contactPage.phone')}</h4>
-                                        <p className="text-white font-bold">{activeLocation.phone}</p>
+                                        <p className="text-white font-bold">
+                                            <a href="tel:+393206144070" className="hover:text-luxury-gold transition-colors">+39 3206144070</a>
+                                        </p>
                                         <p className="text-gray-500 text-[10px] font-bold uppercase tracking-widest mt-1">{t('contactPage.support')}</p>
                                     </div>
                                 </div>
@@ -210,7 +230,9 @@ const Contact: React.FC = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-display font-bold text-sm text-gray-500 mb-1 uppercase tracking-widest">Email</h4>
-                                        <p className="text-white font-bold">{activeLocation.email || 'booking@mfluxury.com'}</p>
+                                        <p className="text-white font-bold">
+                                            <a href="mailto:info@mfitalyluxuryrent.it" className="hover:text-luxury-gold transition-colors">info@mfitalyluxuryrent.it</a>
+                                        </p>
                                         <p className="text-gray-500 text-[10px] font-bold uppercase tracking-widest mt-1">{t('contactPage.response')}</p>
                                     </div>
                                 </div>
@@ -235,7 +257,7 @@ const Contact: React.FC = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-display font-bold text-sm text-gray-500 mb-1 uppercase tracking-widest">{t('contactPage.hours')}</h4>
-                                        <p className="text-white font-bold">09:00 - 20:00</p>
+                                        <p className="text-white font-bold">09:00 - 22:00</p>
                                         <p className="text-luxury-gold text-[10px] font-bold mt-1 tracking-widest uppercase">{t('contactPage.delivery')}</p>
                                     </div>
                                 </div>
