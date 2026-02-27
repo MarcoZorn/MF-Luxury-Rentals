@@ -246,9 +246,49 @@ export const translations: Record<string, Record<string, any>> = {
                 cta: 'Scopri l\'Esclusività'
             }
         },
+
+        cars: {
+            descriptions: {
+                q8: 'Audi Q8 S-Line: il SUV che non fa concessioni tra lusso e prestazione. Interni opulenti, trazione quattro e una presenza su strada ineguagliabile. La scelta ideale per chi vuole dominare ogni percorso.',
+                r8: 'Audi R8 V10: il sogno di ogni appassionato reso realtà. Motore V10 aspirato naturalmente, quattro ruote motrici e un ruggito che anticipa ogni curva. La supercar quotidiana per eccellenza.',
+                rs3: 'Audi RS3: compatta fuori, devastante dentro. Il cinque cilindri turbocharged consegna 400 CV in un corpo affilato e aggressivo. Perfetta per chi non scende a compromessi.',
+                rs6: 'Audi RS6 Performance: la familiare che non ti aspetti. 630 CV, trazione integrale e un design da autentica supercar. Spazio, velocità e lusso in un'unica vettura dal carattere unico.',
+                rsq3: 'Audi RSQ3: il SUV sportivo che trasforma ogni uscita in un'avventura. Dinamismo da vera RS in un formato compatto e versatile, con finiture premium di alto livello.',
+                rsq8: 'Audi RSQ8: il punto d'incontro tra hypercar e SUV di lusso. 600 CV, accelerazione da supercar e un abitacolo che ridefinisce il concetto di benessere a bordo.',
+                chiron: 'Bugatti Chiron: il culmine dell'ingegneria automobilistica. 1.500 CV alimentati da un motore W16 da 8 litri con quattro turbocompressori. Un'opera d'arte meccanica accessibile a pochi eletti nel mondo.',
+                continental: 'Bentley Continental GT: gran turismo per antonomasia. Lusso britannico senza tempo, motore W12 biturbo e un'eleganza sartoriale che trasforma ogni viaggio in un'esperienza di classe superiore.',
+                m4: 'BMW M4 Competition: la berlina sportiva portata all'estremo. Sei cilindri biturbo, 510 CV e una gestione della dinamica che rende ogni curva un'emozione pura e viscerale.',
+                m8: 'BMW M8 Competition Cabriolet: performance gran turismo a cielo aperto. Potenza da supercar, lusso da yacht e il piacere senza confini di guidare con il vento tra i capelli.',
+                f296: 'Ferrari 296 GTB: la rivoluzione ibrida del Cavallino. Motore V6 biturbo abbinato a un'unità elettrica per 830 CV totali. L'emozione Ferrari reinterpretata per il futuro.',
+                f812: 'Ferrari 812 GTS: la spider più potente di sempre. V12 aspirato da 800 CV, emissione sonora celestiale e una linea che cattura ogni sguardo. L'apoteosi della guida en plein air.',
+                f8tributo: 'Ferrari F8 Tributo: un tributo alle migliori berlinette Ferrari. V8 biturbo da 720 CV in un corpo affilato e aerodinamico che sfida le leggi della fisica con eleganza sopraffina.',
+                portofino: 'Ferrari Portofino M: la GT della dolce vita. Elegante come una sera d'estate sulla Riviera, potente come solo un Ferrari può essere. Il cabriolet perfetto per le destinazioni più esclusive.',
+                purosangue: 'Ferrari Purosangue: il primo SUV della storia Ferrari. Un'auto che ridefinisce le categorie con oltre 715 CV, quattro porte e un DNA da pura supercar immutato.',
+                roma: 'Ferrari Roma: la dolce vita su quattro ruote. Linee da ritratto, motore V8 da 620 CV e un carattere elegante che evoca la Roma degli anni '60. Bellezza italiana in forma pura.',
+                sf90: 'Ferrari SF90 Stradale: la Ferrari più potente mai prodotta. 1.000 CV plug-in hybrid, quattro ruote motrici e tecnologia mutuata direttamente dalla Formula 1. Il futuro è arrivato.',
+                huracan: 'Lamborghini Huracán EVO Spyder: il toro scatenato decappottato. V10 aspirato da 640 CV, trasmissione a doppia frizione e un'esperienza sonora che non si dimentica mai.',
+                revuelto: 'Lamborghini Revuelto: l'erede dell'Aventador è un ibrido da 1.015 CV. V12 aspirato supportato da tre motori elettrici: il futuro della supercar italiana è emozionante come la sua storia.',
+                urus: 'Lamborghini Urus: il SuperSUV che ha cambiato il segmento. 650 CV, quattro ruote motrici e una versatilità estrema in un corpo che non rinuncia mai al DNA Lamborghini.',
+                grancabrio: 'Maserati GranCabrio: eleganza italiana a cielo aperto. Quattro posti, motore V6 Nettuno da 550 CV e il DNA del Tridente che trasforma ogni uscita in un momento da ricordare.',
+                levante: 'Maserati Levante GTS: il SUV del Tridente in versione più estrema. Motore V8 biturbo Ferrari da 530 CV e un carattere sportivo avvolto dal lusso sartoriale italiano.',
+                g63: 'Mercedes-AMG G63: l'icona indistruttibile evoluta. Motore V8 biturbo da 585 CV nella carrozzeria cubica più amata del mondo. Offroad e onroad: zero compromessi, massima presenza.',
+                cayenne: 'Porsche Cayenne Coupé Turbo GT: il SUV più performante di Zuffenhausen. 640 CV in un corpo coupé aerodinamico che sfida le GT di pura razza sul circuito e in città.',
+                macan: 'Porsche Macan S: sportività e praticità in perfetta sintonia. Il SUV compatto di Porsche con quattro ruote motrici, motore turbo e una guida che ricorda la 911. Piacere quotidiano.',
+                p911: 'Porsche 911 4S Cabriolet: il cabriolet più iconico al mondo. Motore flat-6 biturbo, trazione integrale e 450 CV. Capote aperta o chiusa, è sempre un'esperienza unica al mondo.',
+                spyder718: 'Porsche Boxster 718 Spyder: roadster purista per antonomasia. Motore centrale, capote in tela e un feeling di guida analogico che ricorda il meglio degli anni d'oro dell'automobile.'
+            }
+        },
+        carDetail: {
+            specs: { power: 'Potenza', acceleration: '0-100 km/h', speed: 'Velocità Max' },
+            booking: { title: 'VERIFICA DISPONIBILITÀ', name: 'Nome Completo', email: 'Email', phone: 'Telefono', pickup: 'Ritiro', dropoff: 'Riconsegna', submit: 'INVIA RICHIESTA', noPayment: 'Nessun pagamento richiesto ora' },
+            sound: { title: 'Supercar Esclusive', subtitle: 'Esperienze senza compromessi. Roma ai tuoi piedi' },
+            model3d: 'VISUALIZZAZIONE 3D',
+            similarCars: 'AUTO SIMILI'
+        },
         carCard: {
             onRequest: 'Prezzo su Richiesta',
-            details: 'VEDI DETTAGLI'
+            details: 'VEDI DETTAGLI',
+            customQuote: 'PREVENTIVO PERSONALIZZATO'
         },
         bugattiPage: {
             pinnacle: 'THE PINNACLE OF ENGINEERING',
@@ -342,7 +382,46 @@ export const translations: Record<string, Record<string, any>> = {
                 name: 'FULL NAME'
             }
         },
-        careCard: { details: 'DISCOVER MORE', pricePerDay: 'per day', onRequest: 'ON REQUEST', customQuote: 'CUSTOM QUOTE' }, // Legacy key preserved if needed, but fleet/carCard is primary
+
+        cars: {
+            descriptions: {
+                q8: 'Audi Q8 S-Line: the SUV that makes no concessions between luxury and performance. Opulent interiors, quattro all-wheel drive, and an unmatched road presence. The ideal choice for those who want to dominate every journey.',
+                r8: 'Audi R8 V10: every enthusiast\'s dream made real. Naturally aspirated V10 engine, all-wheel drive, and a roar that announces every corner. The ultimate everyday supercar.',
+                rs3: 'Audi RS3: compact on the outside, devastating inside. The turbocharged five-cylinder delivers 400hp in a sharp, aggressive body. Perfect for those who make no compromises.',
+                rs6: 'Audi RS6 Performance: the estate car you didn\'t see coming. 630hp, all-wheel drive, and a supercar design. Space, speed, and luxury in one extraordinary vehicle.',
+                rsq3: 'Audi RSQ3: the sporty SUV that turns every outing into an adventure. True RS dynamics in a compact and versatile format, with premium high-end finishes.',
+                rsq8: 'Audi RSQ8: where hypercar meets luxury SUV. 600hp, supercar acceleration, and a cabin that redefines onboard comfort.',
+                chiron: 'Bugatti Chiron: the pinnacle of automotive engineering. 1,500hp powered by an 8-litre W16 engine with four turbochargers. A mechanical masterpiece accessible to very few in the world.',
+                continental: 'Bentley Continental GT: the grand tourer par excellence. Timeless British luxury, twin-turbo W12 engine, and tailored elegance that transforms every journey into a first-class experience.',
+                m4: 'BMW M4 Competition: the sports sedan taken to the extreme. Twin-turbo six-cylinder, 510hp, and dynamics management that makes every corner a visceral, pure emotion.',
+                m8: 'BMW M8 Competition Cabriolet: grand touring performance under open skies. Supercar power, yacht-level luxury, and the endless pleasure of driving with the wind in your hair.',
+                f296: 'Ferrari 296 GTB: the Prancing Horse\'s hybrid revolution. Twin-turbo V6 paired with an electric unit for 830hp total. Ferrari emotion reimagined for the future.',
+                f812: 'Ferrari 812 GTS: the most powerful spider ever. Naturally aspirated V12 with 800hp, celestial sound, and a silhouette that captures every gaze. The apotheosis of open-air driving.',
+                f8tributo: 'Ferrari F8 Tributo: a tribute to the finest Ferrari berlinettas. Twin-turbo V8 with 720hp in a sharp, aerodynamic body that defies the laws of physics with supreme elegance.',
+                portofino: 'Ferrari Portofino M: the GT of la dolce vita. As elegant as a summer evening on the Riviera, as powerful as only a Ferrari can be. The perfect cabriolet for the most exclusive destinations.',
+                purosangue: 'Ferrari Purosangue: the first SUV in Ferrari history. A car that redefines categories with over 715hp, four doors, and an unmistakably pure supercar DNA.',
+                roma: 'Ferrari Roma: la dolce vita on four wheels. Portrait-worthy lines, a V8 with 620hp, and an elegant character evoking 1960s Rome. Pure Italian beauty.',
+                sf90: 'Ferrari SF90 Stradale: the most powerful Ferrari ever made. 1,000hp plug-in hybrid, all-wheel drive, and Formula 1-derived technology. The future has arrived.',
+                huracan: 'Lamborghini Huracán EVO Spyder: the open-top raging bull. Naturally aspirated V10 with 640hp, dual-clutch gearbox, and a sonic experience you\'ll never forget.',
+                revuelto: 'Lamborghini Revuelto: the Aventador\'s heir with 1,015hp. A naturally aspirated V12 supported by three electric motors: the future of Italian supercars is as thrilling as its history.',
+                urus: 'Lamborghini Urus: the Super SUV that changed the segment. 650hp, all-wheel drive, and extreme versatility in a body that never surrenders its Lamborghini DNA.',
+                grancabrio: 'Maserati GranCabrio: Italian elegance open to the sky. Four seats, Nettuno V6 with 550hp, and the Trident\'s DNA that turns every outing into a memorable moment.',
+                levante: 'Maserati Levante GTS: the Trident\'s SUV in its most extreme form. Ferrari-sourced twin-turbo V8 with 530hp and a sporting character wrapped in Italian sartorial luxury.',
+                g63: 'Mercedes-AMG G63: the indestructible icon evolved. Twin-turbo V8 with 585hp in the world\'s most beloved cubic body. Off-road and on-road: zero compromises, maximum presence.',
+                cayenne: 'Porsche Cayenne Coupé Turbo GT: the most extreme SUV from Zuffenhausen. 640hp in an aerodynamic coupé body that challenges pedigree GTs on track and in the city.',
+                macan: 'Porsche Macan S: sporting agility and everyday practicality in perfect harmony. Porsche\'s compact SUV with all-wheel drive, turbo engine, and a driving feel that recalls the 911.',
+                p911: 'Porsche 911 4S Cabriolet: the world\'s most iconic cabriolet. Flat-6 twin-turbo, all-wheel drive, and 450hp. Roof up or down, it\'s always a one-of-a-kind experience.',
+                spyder718: 'Porsche Boxster 718 Spyder: the purist roadster par excellence. Mid-engine layout, fabric roof, and an analogue driving feel that recalls the golden era of the automobile.'
+            }
+        },
+        carDetail: {
+            specs: { power: 'Power', acceleration: '0-100 km/h', speed: 'Max Speed' },
+            booking: { title: 'CHECK AVAILABILITY', name: 'Full Name', email: 'Email', phone: 'Phone', pickup: 'Pickup', dropoff: 'Dropoff', submit: 'SEND REQUEST', noPayment: 'No payment required now' },
+            sound: { title: 'Exclusive Supercars', subtitle: 'Uncompromising experiences. Rome at your feet' },
+            model3d: '3D VISUALIZATION',
+            similarCars: 'SIMILAR CARS'
+        },
+        carCard: { details: 'DISCOVER MORE', pricePerDay: 'per day', onRequest: 'ON REQUEST', customQuote: 'CUSTOM QUOTE' },
         fleet: {
             titlePart1: 'THE ',
             collection: 'FLEET',
@@ -534,7 +613,46 @@ export const translations: Record<string, Record<string, any>> = {
                 name: 'NOM COMPLET'
             }
         },
-        careCard: { details: 'EN SAVOIR PLUS', pricePerDay: 'par jour', onRequest: 'SUR DEMANDE', customQuote: 'DEVIS PERSONNALISÉ' },
+
+        cars: {
+            descriptions: {
+                q8: 'Audi Q8 S-Line : le SUV qui ne fait aucune concession entre luxe et performance. Intérieur opulent, transmission quattro et une présence routière incomparable.',
+                r8: 'Audi R8 V10 : le rêve de tout passionné devenu réalité. Moteur V10 atmosphérique, transmission intégrale et un rugissement qui anticipe chaque virage.',
+                rs3: 'Audi RS3 : compacte en apparence, dévastatrice à l\'usage. Le cinq-cylindres turbo délivre 400 ch dans une carrosserie affûtée et agressive.',
+                rs6: 'Audi RS6 Performance : le break que vous n\'attendiez pas. 630 ch, transmission intégrale et le design d\'une vraie supercar.',
+                rsq3: 'Audi RSQ3 : le SUV sportif qui transforme chaque sortie en aventure. Dynamisme RS dans un format compact et polyvalent.',
+                rsq8: 'Audi RSQ8 : là où la hypercar rencontre le SUV de luxe. 600 ch, accélération de supercar et un habitacle qui redéfinit le bien-être à bord.',
+                chiron: 'Bugatti Chiron : le summum du génie automobile. 1 500 ch d\'un moteur W16 8 litres quadri-turbo. Un chef-d\'œuvre mécanique réservé à quelques élus.',
+                continental: 'Bentley Continental GT : le grand tourisme par excellence. Luxe britannique intemporel, W12 biturbo et une élégance sur mesure.',
+                m4: 'BMW M4 Competition : la berline sportive poussée à l\'extrême. Six-cylindres biturbo, 510 ch et une dynamique qui rend chaque virage inoubliable.',
+                m8: 'BMW M8 Competition Cabriolet : grand tourisme performance à ciel ouvert. Puissance de supercar, luxe de yacht.',
+                f296: 'Ferrari 296 GTB : la révolution hybride du Cheval Cabré. V6 biturbo associé à un moteur électrique pour 830 ch.',
+                f812: 'Ferrari 812 GTS : le spider le plus puissant jamais construit. V12 atmosphérique, 800 ch et un chant mécanique céleste.',
+                f8tributo: 'Ferrari F8 Tributo : un hommage aux plus belles berlinettes Ferrari. V8 biturbo 720 ch dans une carrosserie aérodynamique affilée.',
+                portofino: 'Ferrari Portofino M : la GT de la dolce vita. Élégante comme un soir d\'été sur la Riviera, puissante comme seule une Ferrari peut l\'être.',
+                purosangue: 'Ferrari Purosangue : le premier SUV de l\'histoire Ferrari. Plus de 715 ch, quatre portes et un ADN de supercar intact.',
+                roma: 'Ferrari Roma : la dolce vita sur quatre roues. Lignes sculpturales, V8 620 ch et un caractère évoquant la Rome des années 60.',
+                sf90: 'Ferrari SF90 Stradale : la Ferrari la plus puissante jamais produite. 1 000 ch hybride rechargeable, quatre roues motrices et technologie de Formule 1.',
+                huracan: 'Lamborghini Huracán EVO Spyder : le taureau déchaîné en version découvrable. V10 atmosphérique 640 ch et une expérience sonore inoubliable.',
+                revuelto: 'Lamborghini Revuelto : l\'héritier de l\'Aventador avec 1 015 ch hybrides. V12 atmosphérique et trois moteurs électriques.',
+                urus: 'Lamborghini Urus : le Super SUV qui a révolutionné le segment. 650 ch et polyvalence extrême avec l\'ADN Lamborghini.',
+                grancabrio: 'Maserati GranCabrio : l\'élégance italienne sous ciel ouvert. Quatre places, V6 Nettuno 550 ch et l\'ADN du Trident.',
+                levante: 'Maserati Levante GTS : le SUV du Trident dans sa version la plus extrême. V8 biturbo Ferrari de 530 ch.',
+                g63: 'Mercedes-AMG G63 : l\'icône indestructible sublimée. V8 biturbo 585 ch dans la carrosserie cubique la plus emblématique du monde.',
+                cayenne: 'Porsche Cayenne Coupé Turbo GT : le SUV le plus extrême de Zuffenhausen. 640 ch en carrosserie coupé aérodynamique.',
+                macan: 'Porsche Macan S : agilité sportive et polyvalence quotidienne en harmonie parfaite. Transmission intégrale et plaisir de conduite.',
+                p911: 'Porsche 911 4S Cabriolet : le cabriolet le plus iconique au monde. Flat-6 biturbo, transmission intégrale et 450 ch.',
+                spyder718: 'Porsche Boxster 718 Spyder : le roadster puriste par excellence. Moteur central, capote en toile et sensations de conduite analogiques.'
+            }
+        },
+        carDetail: {
+            specs: { power: 'Puissance', acceleration: '0-100 km/h', speed: 'Vitesse Max' },
+            booking: { title: 'VÉRIFIER DISPONIBILITÉ', name: 'Nom Complet', email: 'Email', phone: 'Téléphone', pickup: 'Prise en charge', dropoff: 'Retour', submit: 'ENVOYER LA DEMANDE', noPayment: 'Aucun paiement requis maintenant' },
+            sound: { title: 'Supercars Exclusives', subtitle: 'Expériences sans compromis. Rome à vos pieds' },
+            model3d: 'VISUALISATION 3D',
+            similarCars: 'VOITURES SIMILAIRES'
+        },
+        carCard: { details: 'EN SAVOIR PLUS', pricePerDay: 'par jour', onRequest: 'SUR DEMANDE', customQuote: 'DEVIS PERSONNALISÉ' },
         fleet: {
             titlePart1: 'NOTRE ',
             collection: 'FLOTTE',
@@ -724,7 +842,46 @@ export const translations: Record<string, Record<string, any>> = {
             cities: { roma: 'ROMA', milano: 'MILÁN', ibiza: 'IBIZA', portocervo: 'PORTO CERVO', cannes: 'CANNES', montecarlo: 'MONTECARLO', barcellona: 'BARCELONA', parigi: 'PARÍS', berlino: 'BERLÍN', firenze: 'FLORENCIA', venezia: 'VENECIA', napoli: 'NÁPOLES', fiumicino: 'AEROPORTO FIUMICINO', fortedeimarmi: 'FORTE DEI MARMI' },
             cityDescs: { roma: 'Ciudad Eterna', milano: 'Moda y Negocios', ibiza: 'Vibras de verano', portocervo: 'Costa Esmeralda', cannes: 'Cine y Lujo', montecarlo: 'Vida Real', barcellona: 'Espíritu Mediterráneo', parigi: 'Ciudad de la Luz', berlino: 'Vanguardia', firenze: 'Renacimiento', venezia: 'Ciudad Romántica', napoli: 'Corazón del Vesubio', fiumicino: 'Vuelo y Conducción', fortedeimarmi: 'Versilia Exclusiva' }
         },
-        careCard: { details: 'DESCUBRIR MÁS', pricePerDay: 'al día', onRequest: 'A PETICIÓN', customQuote: 'PRESUPUESTO PERSONALIZADO' },
+
+        cars: {
+            descriptions: {
+                q8: 'Audi Q8 S-Line: el SUV que no hace concesiones entre lujo y rendimiento. Interior opulento, tracción quattro y una presencia en carretera incomparable.',
+                r8: 'Audi R8 V10: el sueño de todo apasionado hecho realidad. Motor V10 atmosférico, tracción integral y un rugido que anticipa cada curva.',
+                rs3: 'Audi RS3: compacta por fuera, devastadora por dentro. El cinco cilindros turbo entrega 400 CV en una carrocería afilada y agresiva.',
+                rs6: 'Audi RS6 Performance: el familiar que no esperabas. 630 CV, tracción integral y diseño de supercar puro.',
+                rsq3: 'Audi RSQ3: el SUV deportivo que convierte cada salida en una aventura. Dinamismo RS en formato compacto.',
+                rsq8: 'Audi RSQ8: donde el hypercar se encuentra con el SUV de lujo. 600 CV y aceleración de supercar.',
+                chiron: 'Bugatti Chiron: la cima de la ingeniería automovilística. 1.500 CV de un motor W16 de 8 litros con cuatro turbos. Una obra maestra mecánica.',
+                continental: 'Bentley Continental GT: el gran turismo por excelencia. Lujo británico intemporal, W12 biturbo y elegancia a medida.',
+                m4: 'BMW M4 Competition: el sedán deportivo llevado al extremo. Seis cilindros biturbo, 510 CV y dinámica que hace memorable cada curva.',
+                m8: 'BMW M8 Competition Cabriolet: gran turismo bajo cielo abierto. Potencia de supercar, lujo de yate.',
+                f296: 'Ferrari 296 GTB: la revolución híbrida del Cavallino. V6 biturbo + eléctrico para 830 CV.',
+                f812: 'Ferrari 812 GTS: el spider más potente jamás construido. V12 atmosférico, 800 CV y sonido celestial.',
+                f8tributo: 'Ferrari F8 Tributo: homenaje a las mejores berlinettas Ferrari. V8 biturbo 720 CV en carrocería aerodinámica.',
+                portofino: 'Ferrari Portofino M: la GT de la dolce vita. Elegante como una tarde en la Riviera, poderosa como solo Ferrari puede ser.',
+                purosangue: 'Ferrari Purosangue: el primer SUV de la historia Ferrari. Más de 715 CV, cuatro puertas y ADN de supercar.',
+                roma: 'Ferrari Roma: la dolce vita sobre cuatro ruedas. Líneas escultóricas, V8 de 620 CV y carácter evocador.',
+                sf90: 'Ferrari SF90 Stradale: la Ferrari más potente jamás producida. 1.000 CV híbrido enchufable y tracción integral.',
+                huracan: 'Lamborghini Huracán EVO Spyder: el toro desatado descapotado. V10 atmosférico 640 CV y experiencia sonora única.',
+                revuelto: 'Lamborghini Revuelto: el heredero del Aventador con 1.015 CV híbridos. V12 y tres motores eléctricos.',
+                urus: 'Lamborghini Urus: el SuperSUV que cambió el segmento. 650 CV y versatilidad extrema con ADN Lamborghini.',
+                grancabrio: 'Maserati GranCabrio: elegancia italiana a cielo abierto. Cuatro plazas, V6 Nettuno de 550 CV.',
+                levante: 'Maserati Levante GTS: el SUV del Tridente en versión extrema. V8 biturbo Ferrari de 530 CV.',
+                g63: 'Mercedes-AMG G63: el icono indestructible evolucionado. V8 biturbo 585 CV en la carrocería cúbica más emblemática.',
+                cayenne: 'Porsche Cayenne Coupé Turbo GT: el SUV más extremo de Zuffenhausen. 640 CV en carrocería coupé aerodinámica.',
+                macan: 'Porsche Macan S: agilidad deportiva y practicidad cotidiana. Tracción integral y el placer de conducción Porsche.',
+                p911: 'Porsche 911 4S Cabriolet: el cabriolet más icónico del mundo. Flat-6 biturbo, tracción integral y 450 CV.',
+                spyder718: 'Porsche Boxster 718 Spyder: el roadster purista por excelencia. Motor central y sensaciones de conducción analógicas.'
+            }
+        },
+        carDetail: {
+            specs: { power: 'Potencia', acceleration: '0-100 km/h', speed: 'Velocidad Máx' },
+            booking: { title: 'VERIFICAR DISPONIBILIDAD', name: 'Nombre Completo', email: 'Email', phone: 'Teléfono', pickup: 'Recogida', dropoff: 'Devolución', submit: 'ENVIAR SOLICITUD', noPayment: 'Sin pago requerido ahora' },
+            sound: { title: 'Supercars Exclusivos', subtitle: 'Experiencias sin compromiso. Roma a tus pies' },
+            model3d: 'VISUALIZACIÓN 3D',
+            similarCars: 'COCHES SIMILARES'
+        },
+        carCard: { details: 'DESCUBRIR MÁS', pricePerDay: 'al día', onRequest: 'A PETICIÓN', customQuote: 'PRESUPUESTO PERSONALIZADO' },
         fleet: {
             titlePart1: 'LA ',
             collection: 'FLOTA',
@@ -914,7 +1071,46 @@ export const translations: Record<string, Record<string, any>> = {
             cities: { roma: 'РИМ', milano: 'МИЛАН', ibiza: 'ИБИЦА', portocervo: 'ПОРТО ЧЕРВО', cannes: 'КАННЫ', montecarlo: 'МОНТЕ-КАРЛО', barcellona: 'БАРСЕЛОНА', parigi: 'ПАРИЖ', berlino: 'БЕРЛИН', firenze: 'ФЛОРЕНЦИЯ', venezia: 'ВЕНЕЦИЯ', napoli: 'НЕАПОЛЬ', fiumicino: 'АЭРОПОРТ ФЬЮМИЧИНО', fortedeimarmi: 'ФОРТЕ ДЕЙ МАРМИ' },
             cityDescs: { roma: 'Вечный город', milano: 'Мода и бизнес', ibiza: 'Лето и вечеринки', portocervo: 'Изумрудный берег', cannes: 'Кино и роскошь', montecarlo: 'Королевская жизнь', barcellona: 'Средиземноморский дух', parigi: 'Город огней', berlino: 'Авангард', firenze: 'Ренессанс', venezia: 'Романтический город', napoli: 'Сердце Везувия', fiumicino: 'Перелет и вождение', fortedeimarmi: 'Эксклюзивная Версилия' }
         },
-        careCard: { details: 'ПОДРОБНЕЕ', pricePerDay: 'в день', onRequest: 'ПО ЗАПРОСУ', customQuote: 'ПЕРСОНАЛЬНЫЙ РАСЧЕТ' },
+
+        cars: {
+            descriptions: {
+                q8: 'Audi Q8 S-Line: внедорожник без компромиссов между роскошью и производительностью. Роскошный интерьер, полный привод quattro и непревзойдённое присутствие на дороге.',
+                r8: 'Audi R8 V10: мечта каждого энтузиаста, ставшая реальностью. Атмосферный V10, полный привод и рёв, предвосхищающий каждый поворот.',
+                rs3: 'Audi RS3: компактный снаружи, сокрушительный внутри. Турбированная «пятёрка» выдаёт 400 л.с. в острой агрессивной форме.',
+                rs6: 'Audi RS6 Performance: универсал, которого вы не ожидали. 630 л.с., полный привод и дизайн суперкара.',
+                rsq3: 'Audi RSQ3: спортивный внедорожник, превращающий каждую поездку в приключение. Динамика RS в компактном формате.',
+                rsq8: 'Audi RSQ8: там, где гиперкар встречается с люксовым SUV. 600 л.с. и разгон как у суперкара.',
+                chiron: 'Bugatti Chiron: вершина автомобильной инженерии. 1500 л.с. от 8-литрового мотора W16 с четырьмя турбинами. Механический шедевр для избранных.',
+                continental: 'Bentley Continental GT: великий туризм в чистом виде. Классическая британская роскошь, W12 битурбо и изысканная элегантность.',
+                m4: 'BMW M4 Competition: спортивный седан, доведённый до крайности. 510 л.с. и динамика, делающая каждый поворот незабываемым.',
+                m8: 'BMW M8 Competition Cabriolet: гран-туризм под открытым небом. Мощность суперкара, роскошь яхты.',
+                f296: 'Ferrari 296 GTB: гибридная революция Скачущего жеребца. V6 битурбо + электромотор для 830 л.с.',
+                f812: 'Ferrari 812 GTS: самый мощный спайдер в истории. Атмосферный V12, 800 л.с. и небесная музыка двигателя.',
+                f8tributo: 'Ferrari F8 Tributo: дань уважения лучшим берлинеттам Ferrari. V8 битурбо 720 л.с. в аэродинамичном кузове.',
+                portofino: 'Ferrari Portofino M: GT для сладкой жизни. Элегантная как летний вечер на Ривьере, мощная как только Ferrari умеет.',
+                purosangue: 'Ferrari Purosangue: первый SUV в истории Ferrari. Более 715 л.с., четыре двери и ДНК суперкара.',
+                roma: 'Ferrari Roma: сладкая жизнь на четырёх колёсах. Скульптурные линии, V8 620 л.с. и характер, воссоздающий Рим 60-х.',
+                sf90: 'Ferrari SF90 Stradale: самая мощная Ferrari в истории. 1000 л.с. plug-in гибрид, полный привод и технологии Формулы 1.',
+                huracan: 'Lamborghini Huracán EVO Spyder: разъярённый бык без крыши. Атмосферный V10 640 л.с. и незабываемый звук.',
+                revuelto: 'Lamborghini Revuelto: наследник Aventador с 1015 л.с. V12 и три электромотора. Будущее итальянских суперкаров.',
+                urus: 'Lamborghini Urus: SuperSUV, изменивший сегмент. 650 л.с. и ДНК Lamborghini в универсальном формате.',
+                grancabrio: 'Maserati GranCabrio: итальянская элегантность под открытым небом. Четыре места, V6 Nettuno 550 л.с.',
+                levante: 'Maserati Levante GTS: внедорожник Трезубца в экстремальной версии. V8 битурбо Ferrari 530 л.с.',
+                g63: 'Mercedes-AMG G63: неразрушимая икона, эволюционировавшая. 585 л.с. V8 битурбо в самом легендарном кузове.',
+                cayenne: 'Porsche Cayenne Coupé Turbo GT: самый экстремальный SUV из Цуффенхаузена. 640 л.с. в аэродинамичном купе.',
+                macan: 'Porsche Macan S: спортивная ловкость и повседневная практичность. Полный привод и удовольствие от вождения Porsche.',
+                p911: 'Porsche 911 4S Cabriolet: самый знаковый кабриолет в мире. Оппозитный шестицилиндровый битурбо, полный привод, 450 л.с.',
+                spyder718: 'Porsche Boxster 718 Spyder: пуристический родстер par excellence. Среднемоторная компоновка и аналоговые ощущения.'
+            }
+        },
+        carDetail: {
+            specs: { power: 'Мощность', acceleration: '0-100 км/ч', speed: 'Макс. скорость' },
+            booking: { title: 'ПРОВЕРИТЬ ДОСТУПНОСТЬ', name: 'Полное имя', email: 'Email', phone: 'Телефон', pickup: 'Получение', dropoff: 'Возврат', submit: 'ОТПРАВИТЬ ЗАПРОС', noPayment: 'Оплата сейчас не требуется' },
+            sound: { title: 'Эксклюзивные суперкары', subtitle: 'Опыт без компромиссов. Рим у ваших ног' },
+            model3d: '3D ВИЗУАЛИЗАЦИЯ',
+            similarCars: 'ПОХОЖИЕ АВТОМОБИЛИ'
+        },
+        carCard: { details: 'ПОДРОБНЕЕ', pricePerDay: 'в день', onRequest: 'ПО ЗАПРОСУ', customQuote: 'ПЕРСОНАЛЬНЫЙ РАСЧЕТ' },
         fleet: {
             titlePart1: 'АВТО',
             collection: 'ПАРК',
@@ -1113,7 +1309,46 @@ export const translations: Record<string, Record<string, any>> = {
                 name: 'الاسم الكامل'
             }
         },
-        careCard: { details: 'اكتشف المزيد', pricePerDay: 'في اليوم', onRequest: 'عند الطلب', customQuote: 'عرض مخصص' },
+
+        cars: {
+            descriptions: {
+                q8: 'أودي Q8 S-Line: سيارة الدفع الرباعي التي لا تُقدّم أي تنازل بين الرفاهية والأداء. داخلية فاخرة، دفع رباعي quattro وحضور على الطريق لا مثيل له.',
+                r8: 'أودي R8 V10: حلم كل عشاق السيارات يتحقق. محرك V10 هوائي، دفع رباعي وزئير يُعلن عن كل منعطف.',
+                rs3: 'أودي RS3: صغيرة في الحجم، مدمّرة في الأداء. محرك خماسي الأسطوانات توربو بـ 400 حصان في هيكل حادّ وعدواني.',
+                rs6: 'أودي RS6 Performance: العربة العائلية التي لم تتوقعها. 630 حصان، دفع رباعي وتصميم سيارة خارقة.',
+                rsq3: 'أودي RSQ3: سيارة الدفع الرباعي الرياضية التي تحوّل كل رحلة إلى مغامرة. ديناميكية RS في شكل مدمج.',
+                rsq8: 'أودي RSQ8: حيث تلتقي السيارة الخارقة بسيارة الدفع الرباعي الفاخرة. 600 حصان وتسارع فائق.',
+                chiron: 'بوغاتي شيرون: قمة الهندسة الميكانيكية. 1500 حصان من محرك W16 سعة 8 لترات. تحفة ميكانيكية لا مثيل لها.',
+                continental: 'بنتلي كونتيننتال GT: السيارة السياحية الكبرى بامتياز. فخامة بريطانية خالدة ومحرك W12 مزدوج التوربو.',
+                m4: 'بي إم دبليو M4 Competition: السيدان الرياضي مدفوعاً إلى أقصى حدوده. 510 حصان وديناميكية لا تُنسى.',
+                m8: 'بي إم دبليو M8 Competition Cabriolet: سيارة سياحية تحت السماء المفتوحة. قوة السيارات الخارقة ورفاهية اليخت.',
+                f296: 'فيراري 296 GTB: ثورة الهجين من إسطبل الحصان. V6 توربو + محرك كهربائي بـ 830 حصان.',
+                f812: 'فيراري 812 GTS: أقوى سبايدر في التاريخ. V12 هوائي، 800 حصان وصوت سماوي.',
+                f8tributo: 'فيراري F8 Tributo: تحية لأفضل برلينتات فيراري. V8 توربو، 720 حصان في هيكل ديناميكي.',
+                portofino: 'فيراري بورتوفينو M: السيارة السياحية للحياة الحلوة. أناقة كمساء صيفي على الريفييرا.',
+                purosangue: 'فيراري بوروسانغي: أول SUV في تاريخ فيراري. أكثر من 715 حصان وأربعة أبواب.',
+                roma: 'فيراري روما: la dolce vita على أربعة عجلات. خطوط نحتية وV8 بـ 620 حصان.',
+                sf90: 'فيراري SF90 Stradale: أقوى فيراري على الإطلاق. 1000 حصان هجين قابل للشحن ودفع رباعي.',
+                huracan: 'لامبورغيني هوراكان EVO سبايدر: الثور الهائج مكشوفاً. V10 هوائي 640 حصان وتجربة صوتية لا تُنسى.',
+                revuelto: 'لامبورغيني ريفويلتو: وريث أفينتادور بـ 1015 حصان هجينة. V12 وثلاثة محركات كهربائية.',
+                urus: 'لامبورغيني أوروس: الـ SuperSUV الذي غيّر القطاع. 650 حصان وتنوع لا حدود له.',
+                grancabrio: 'مازيراتي جران كابريو: الأناقة الإيطالية تحت السماء المفتوحة. أربعة مقاعد وV6 نيتونو بـ 550 حصان.',
+                levante: 'مازيراتي ليفانتي GTS: سيارة الدفع الرباعي من التريدنت في نسختها الأقوى. V8 توربو فيراري بـ 530 حصان.',
+                g63: 'مرسيدس AMG G63: الأيقونة التي لا تنكسر وقد تطورت. 585 حصان V8 توربو مزدوج في الهيكل المكعب الأشهر.',
+                cayenne: 'بورشه كايان كوبيه توربو GT: أقصى SUV من زوفنهاوزن. 640 حصان في هيكل كوبيه ديناميكي.',
+                macan: 'بورشه ماكان S: رشاقة رياضية وعملية يومية في انسجام تام. دفع رباعي ومتعة القيادة.',
+                p911: 'بورشه 911 4S Cabriolet: أشهر كابريوليه في العالم. محرك مسطح سداسي توربو، دفع رباعي و450 حصان.',
+                spyder718: 'بورشه بوكستر 718 سبايدر: رودستر النقاء بامتياز. محرك وسطي وإحساس قيادة أصيل.'
+            }
+        },
+        carDetail: {
+            specs: { power: 'القوة', acceleration: '0-100 كم/س', speed: 'أقصى سرعة' },
+            booking: { title: 'تحقق من التوفر', name: 'الاسم الكامل', email: 'البريد الإلكتروني', phone: 'الهاتف', pickup: 'نقطة الاستلام', dropoff: 'نقطة الإرجاع', submit: 'إرسال الطلب', noPayment: 'لا يلزم الدفع الآن' },
+            sound: { title: 'سيارات فائقة حصرية', subtitle: 'تجارب بلا تنازلات. روما عند قدميك' },
+            model3d: 'تصور ثلاثي الأبعاد',
+            similarCars: 'سيارات مشابهة'
+        },
+        carCard: { details: 'اكتشف المزيد', pricePerDay: 'في اليوم', onRequest: 'عند الطلب', customQuote: 'عرض مخصص' },
         fleet: {
             titlePart1: 'أسطول ',
             collection: 'السيارات',
