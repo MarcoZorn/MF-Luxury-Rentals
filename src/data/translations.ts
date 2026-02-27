@@ -118,8 +118,7 @@ export const translations: Record<string, Record<string, any>> = {
                 venezia: 'VENEZIA',
                 napoli: 'NAPOLI',
                 fiumicino: 'AEROPORTO FIUMICINO',
-                fortedeimarmi: 'FORTE DEI MARMI',
-                miami: 'MIAMI'
+                fortedeimarmi: 'FORTE DEI MARMI'
             },
             cityDescs: {
                 roma: 'Capitale Eterna',
@@ -135,8 +134,7 @@ export const translations: Record<string, Record<string, any>> = {
                 venezia: 'Romantic City',
                 napoli: 'Vesuvius Heart',
                 fiumicino: 'Fly & Drive',
-                fortedeimarmi: 'Versilia Exclusive',
-                miami: 'Ocean Drive & Luxury'
+                fortedeimarmi: 'Versilia Exclusive'
             },
             vip: {
                 tag: 'ACCESSO CONCIERGE PRIVATO',
@@ -332,8 +330,8 @@ export const translations: Record<string, Record<string, any>> = {
             cta: 'Choose your next destination and let yourself be guided by the excellence of MF',
             galleryTitle: 'ICONIC DESTINATIONS', gallerySubtitle: 'From Rome to Sardinia',
             contactBranch: 'CONTACT BRANCH', hours: 'Mon - Sun: 09:00 - 22:00',
-            cities: { roma: 'ROME', milano: 'MILAN', ibiza: 'IBIZA', portocervo: 'PORTO CERVO', cannes: 'CANNES', montecarlo: 'MONTE CARLO', barcellona: 'BARCELONA', parigi: 'PARIS', berlino: 'BERLIN', firenze: 'FLORENCE', venezia: 'VENICE', napoli: 'NAPLES', fiumicino: 'FIUMICINO AIRPORT', fortedeimarmi: 'FORTE DEI MARMI', miami: 'MIAMI' },
-            cityDescs: { roma: 'Eternal City', milano: 'Fashion & Business', ibiza: 'Summer Vibes', portocervo: 'Emerald Coast', cannes: 'Cinema & Luxury', montecarlo: 'Royal Living', barcellona: 'Mediterranean Spirit', parigi: 'City of Lights', berlino: 'Avant-garde', firenze: 'Renaissance', venezia: 'Romantic City', napoli: 'Vesuvius Heart', fiumicino: 'Fly & Drive', fortedeimarmi: 'Versilia Exclusive', miami: 'Ocean Drive & Luxury' },
+            cities: { roma: 'ROME', milano: 'MILAN', ibiza: 'IBIZA', portocervo: 'PORTO CERVO', cannes: 'CANNES', montecarlo: 'MONTE CARLO', barcellona: 'BARCELONA', parigi: 'PARIS', berlino: 'BERLIN', firenze: 'FLORENCE', venezia: 'VENICE', napoli: 'NAPLES', fiumicino: 'FIUMICINO AIRPORT', fortedeimarmi: 'FORTE DEI MARMI' },
+            cityDescs: { roma: 'Eternal City', milano: 'Fashion & Business', ibiza: 'Summer Vibes', portocervo: 'Emerald Coast', cannes: 'Cinema & Luxury', montecarlo: 'Royal Living', barcellona: 'Mediterranean Spirit', parigi: 'City of Lights', berlino: 'Avant-garde', firenze: 'Renaissance', venezia: 'Romantic City', napoli: 'Vesuvius Heart', fiumicino: 'Fly & Drive', fortedeimarmi: 'Versilia Exclusive' },
             vip: {
                 tag: 'PRIVATE CONCIERGE ACCESS',
                 titleMain: 'BUGATTI CHIRON',
@@ -524,8 +522,8 @@ export const translations: Record<string, Record<string, any>> = {
             cta: 'Découvrez nos destinations',
             galleryTitle: 'DESTINATIONS ICONIQUES', gallerySubtitle: 'De Rome à la Sardaigne',
             contactBranch: 'CONTACTER', hours: 'Lun - Dim: 09:00 - 22:00',
-            cities: { roma: 'ROME', milano: 'MILAN', ibiza: 'IBIZA', portocervo: 'PORTO CERVO', cannes: 'CANNES', montecarlo: 'MONTE CARLO', barcellona: 'BARCELONE', parigi: 'PARIS', berlino: 'BERLIN', firenze: 'FLORENCE', venezia: 'VENISE', napoli: 'NAPLES', fiumicino: 'AÉROPORT FIUMICINO', fortedeimarmi: 'FORTE DEI MARMI', miami: 'MIAMI' },
-            cityDescs: { roma: 'Ville éternelle', milano: 'Mode & Affaires', ibiza: 'Vibrations d\'été', portocervo: 'Côte d\'Émeraude', cannes: 'Cinéma & Luxe', montecarlo: 'Vie royale', barcellona: 'Esprit méditerranéen', parigi: 'Ville Lumière', berlino: 'Avant-garde', firenze: 'Renaissance', venezia: 'Romantique', napoli: 'Cœur du Vésuve', fiumicino: 'Vol & Conduite', fortedeimarmi: 'Versilia Exclusive', miami: 'Ocean Drive & Luxury' },
+            cities: { roma: 'ROME', milano: 'MILAN', ibiza: 'IBIZA', portocervo: 'PORTO CERVO', cannes: 'CANNES', montecarlo: 'MONTE CARLO', barcellona: 'BARCELONE', parigi: 'PARIS', berlino: 'BERLIN', firenze: 'FLORENCE', venezia: 'VENISE', napoli: 'NAPLES', fiumicino: 'AÉROPORT FIUMICINO', fortedeimarmi: 'FORTE DEI MARMI' },
+            cityDescs: { roma: 'Ville éternelle', milano: 'Mode & Affaires', ibiza: 'Vibrations d\'été', portocervo: 'Côte d\'Émeraude', cannes: 'Cinéma & Luxe', montecarlo: 'Vie royale', barcellona: 'Esprit méditerranéen', parigi: 'Ville Lumière', berlino: 'Avant-garde', firenze: 'Renaissance', venezia: 'Romantique', napoli: 'Cœur du Vésuve', fiumicino: 'Vol & Conduite', fortedeimarmi: 'Versilia Exclusive' },
             vip: {
                 tag: 'ACCÈS CONCIERGE PRIVÉ',
                 titleMain: 'BUGATTI CHIRON',
@@ -723,8 +721,8 @@ export const translations: Record<string, Record<string, any>> = {
             hours: 'Mon - Sun: 09:00 - 22:00',
             mapTitle: 'RED DE ALQUILER ELITE',
             mapNetwork: 'PRESENCIA GLOBAL',
-            cities: { roma: 'ROMA', milano: 'MILÁN', ibiza: 'IBIZA', portocervo: 'PORTO CERVO', cannes: 'CANNES', montecarlo: 'MONTECARLO', barcellona: 'BARCELONA', parigi: 'PARÍS', berlino: 'BERLÍN', firenze: 'FLORENCIA', venezia: 'VENECIA', napoli: 'NÁPOLES', fiumicino: 'AEROPORTO FIUMICINO', fortedeimarmi: 'FORTE DEI MARMI', miami: 'MIAMI' },
-            cityDescs: { roma: 'Ciudad Eterna', milano: 'Moda y Negocios', ibiza: 'Vibras de verano', portocervo: 'Costa Esmeralda', cannes: 'Cine y Lujo', montecarlo: 'Vida Real', barcellona: 'Espíritu Mediterráneo', parigi: 'Ciudad de la Luz', berlino: 'Vanguardia', firenze: 'Renacimiento', venezia: 'Ciudad Romántica', napoli: 'Corazón del Vesubio', fiumicino: 'Vuelo y Conducción', fortedeimarmi: 'Versilia Exclusiva', miami: 'Ocean Drive y Lujo' }
+            cities: { roma: 'ROMA', milano: 'MILÁN', ibiza: 'IBIZA', portocervo: 'PORTO CERVO', cannes: 'CANNES', montecarlo: 'MONTECARLO', barcellona: 'BARCELONA', parigi: 'PARÍS', berlino: 'BERLÍN', firenze: 'FLORENCIA', venezia: 'VENECIA', napoli: 'NÁPOLES', fiumicino: 'AEROPORTO FIUMICINO', fortedeimarmi: 'FORTE DEI MARMI' },
+            cityDescs: { roma: 'Ciudad Eterna', milano: 'Moda y Negocios', ibiza: 'Vibras de verano', portocervo: 'Costa Esmeralda', cannes: 'Cine y Lujo', montecarlo: 'Vida Real', barcellona: 'Espíritu Mediterráneo', parigi: 'Ciudad de la Luz', berlino: 'Vanguardia', firenze: 'Renacimiento', venezia: 'Ciudad Romántica', napoli: 'Corazón del Vesubio', fiumicino: 'Vuelo y Conducción', fortedeimarmi: 'Versilia Exclusiva' }
         },
         careCard: { details: 'DESCUBRIR MÁS', pricePerDay: 'al día', onRequest: 'A PETICIÓN', customQuote: 'PRESUPUESTO PERSONALIZADO' },
         fleet: {
@@ -913,8 +911,8 @@ export const translations: Record<string, Record<string, any>> = {
             hours: 'Пн - Вс: 09:00 - 22:00',
             mapTitle: 'ЭЛИТНАЯ СЕТЬ ПРОКАТА',
             mapNetwork: 'ГЛОБАЛЬНОЕ ПРИСУТСТВИЕ',
-            cities: { roma: 'РИМ', milano: 'МИЛАН', ibiza: 'ИБИЦА', portocervo: 'ПОРТО ЧЕРВО', cannes: 'КАННЫ', montecarlo: 'МОНТЕ-КАРЛО', barcellona: 'БАРСЕЛОНА', parigi: 'ПАРИЖ', berlino: 'БЕРЛИН', firenze: 'ФЛОРЕНЦИЯ', venezia: 'ВЕНЕЦИЯ', napoli: 'НЕАПОЛЬ', fiumicino: 'АЭРОПОРТ ФЬЮМИЧИНО', fortedeimarmi: 'ФОРТЕ ДЕЙ МАРМИ', miami: 'МАЙАМИ' },
-            cityDescs: { roma: 'Вечный город', milano: 'Мода и бизнес', ibiza: 'Лето и вечеринки', portocervo: 'Изумрудный берег', cannes: 'Кино и роскошь', montecarlo: 'Королевская жизнь', barcellona: 'Средиземноморский дух', parigi: 'Город огней', berlino: 'Авангард', firenze: 'Ренессанс', venezia: 'Романтический город', napoli: 'Сердце Везувия', fiumicino: 'Перелет и вождение', fortedeimarmi: 'Эксклюзивная Версилия', miami: 'Океан и роскошь' }
+            cities: { roma: 'РИМ', milano: 'МИЛАН', ibiza: 'ИБИЦА', portocervo: 'ПОРТО ЧЕРВО', cannes: 'КАННЫ', montecarlo: 'МОНТЕ-КАРЛО', barcellona: 'БАРСЕЛОНА', parigi: 'ПАРИЖ', berlino: 'БЕРЛИН', firenze: 'ФЛОРЕНЦИЯ', venezia: 'ВЕНЕЦИЯ', napoli: 'НЕАПОЛЬ', fiumicino: 'АЭРОПОРТ ФЬЮМИЧИНО', fortedeimarmi: 'ФОРТЕ ДЕЙ МАРМИ' },
+            cityDescs: { roma: 'Вечный город', milano: 'Мода и бизнес', ibiza: 'Лето и вечеринки', portocervo: 'Изумрудный берег', cannes: 'Кино и роскошь', montecarlo: 'Королевская жизнь', barcellona: 'Средиземноморский дух', parigi: 'Город огней', berlino: 'Авангард', firenze: 'Ренессанс', venezia: 'Романтический город', napoli: 'Сердце Везувия', fiumicino: 'Перелет и вождение', fortedeimarmi: 'Эксклюзивная Версилия' }
         },
         careCard: { details: 'ПОДРОБНЕЕ', pricePerDay: 'в день', onRequest: 'ПО ЗАПРОСУ', customQuote: 'ПЕРСОНАЛЬНЫЙ РАСЧЕТ' },
         fleet: {
@@ -1103,8 +1101,8 @@ export const translations: Record<string, Record<string, any>> = {
             hours: 'الاثنين - الأحد: 09:00 - 22:00',
             mapTitle: 'شبكة تأجير النخبة',
             mapNetwork: 'تواجد عالمي',
-            cities: { roma: 'روما', milano: 'ميلانو', ibiza: 'إيبيزا', portocervo: 'بورتو شيرفو', cannes: 'كان', montecarlo: 'مونت كارلو', barcellona: 'برشلونة', parigi: 'باريس', berlino: 'برلين', firenze: 'فلورنسا', venezia: 'البندقية', napoli: 'نابول', fiumicino: 'مطار فيوميتشينو', fortedeimarmi: 'فورتي دي مارمي', miami: 'ميامي' },
-            cityDescs: { roma: 'المدينة الخالدة', milano: 'الموضة والأعمال', ibiza: 'أجواء الصيف', portocervo: 'ساحل الزمرد', cannes: 'السينما والفاخرة', montecarlo: 'الحياة الملكية', barcellona: 'الروح المتوسطية', parigi: 'مدينة الأضواء', berlino: 'طليعي', firenze: 'النهضة', venezia: 'مدينة رومانسية', napoli: 'قلب فيزوف', fiumicino: 'طر وسق', fortedeimarmi: 'فرسيليا الحصرية', miami: 'أوشن درايف والرفاهية' },
+            cities: { roma: 'روما', milano: 'ميلانو', ibiza: 'إيبيزا', portocervo: 'بورتو شيرفو', cannes: 'كان', montecarlo: 'مونت كارلو', barcellona: 'برشلونة', parigi: 'باريس', berlino: 'برلين', firenze: 'فلورنسا', venezia: 'البندقية', napoli: 'نابول', fiumicino: 'مطار فيوميتشينو', fortedeimarmi: 'فورتي دي مارمي' },
+            cityDescs: { roma: 'المدينة الخالدة', milano: 'الموضة والأعمال', ibiza: 'أجواء الصيف', portocervo: 'ساحل الزمرد', cannes: 'السينما والفاخرة', montecarlo: 'الحياة الملكية', barcellona: 'الروح المتوسطية', parigi: 'مدينة الأضواء', berlino: 'طليعي', firenze: 'النهضة', venezia: 'مدينة رومانسية', napoli: 'قلب فيزوف', fiumicino: 'طر وسق', fortedeimarmi: 'فرسيليا الحصرية' },
             vip: {
                 tag: 'وصول خاص للكونسيرج',
                 titleMain: 'BUGATTI CHIRON',

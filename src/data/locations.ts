@@ -9,16 +9,16 @@ import barcelonaHero from '../assets/images/locations/barcelona.jpg';
 import parisHero from '../assets/images/locations/paris.jpg';
 import berlinHero from '../assets/images/locations/berlin.jpg';
 import firenzeHero from '../assets/images/locations/firenze.jpg';
+import veneziaHero from '../assets/images/locations/venezia.jpg';
+import napoliHero from '../assets/images/locations/napoli.jpg';
 import fiumicinoHero from '../assets/images/locations/fiumicino.jpg';
 import fortedeimarmiHero from '../assets/images/locations/fortedeimarmi.jpg';
-import miamiHero from '../assets/images/locations/miami.jpg';
 
-// Locations data with premium local assets
 export const locations = [
     {
         id: 'roma',
         city: 'ROMA HQ',
-        address: 'Via Vittorio Veneto, 121',
+        address: 'Via Vittorio Veneto, 121 – 00187 Roma',
         coords: [41.9062, 12.4897] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -29,7 +29,7 @@ export const locations = [
     {
         id: 'milano',
         city: 'MILANO LOUNGE',
-        address: 'Via Montenapoleone, 8',
+        address: 'Via Montenapoleone, 8 – 20121 Milano',
         coords: [45.4642, 9.1900] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -40,7 +40,7 @@ export const locations = [
     {
         id: 'ibiza',
         city: 'IBIZA BRANCH',
-        address: 'Marina Botafoch, Ibiza',
+        address: 'Marina Botafoch – 07800 Ibiza',
         coords: [38.9067, 1.4206] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -51,7 +51,7 @@ export const locations = [
     {
         id: 'portocervo',
         city: 'PORTO CERVO BRANCH',
-        address: 'Promenade du Port',
+        address: 'Promenade du Port – 07021 Porto Cervo',
         coords: [41.1331, 9.5303] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -62,7 +62,7 @@ export const locations = [
     {
         id: 'cannes',
         city: 'CANNES',
-        address: 'La Croisette',
+        address: 'La Croisette – 06400 Cannes',
         coords: [43.5528, 7.0174] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -73,7 +73,7 @@ export const locations = [
     {
         id: 'montecarlo',
         city: 'MONTECARLO EXCLUSIVE',
-        address: 'Place du Casino, 1',
+        address: 'Place du Casino, 1 – Monaco',
         coords: [43.7384, 7.4246] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -84,7 +84,7 @@ export const locations = [
     {
         id: 'barcellona',
         city: 'BARCELLONA BRANCH',
-        address: 'Passeig de Gràcia',
+        address: 'Passeig de Gràcia – 08007 Barcelona',
         coords: [41.3851, 2.1734] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -95,7 +95,7 @@ export const locations = [
     {
         id: 'parigi',
         city: 'PARIGI BRANCH',
-        address: 'Champs-Élysées',
+        address: 'Avenue des Champs-Élysées – 75008 Paris',
         coords: [48.8566, 2.3522] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -106,7 +106,7 @@ export const locations = [
     {
         id: 'berlino',
         city: 'BERLINO',
-        address: 'Kurfürstendamm',
+        address: 'Kurfürstendamm – 10719 Berlin',
         coords: [52.5200, 13.4050] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -117,7 +117,7 @@ export const locations = [
     {
         id: 'firenze',
         city: 'FIRENZE ART LOUNGE',
-        address: 'Via de\' Tornabuoni',
+        address: 'Via de\' Tornabuoni – 50123 Firenze',
         coords: [43.7696, 11.2558] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
@@ -126,36 +126,47 @@ export const locations = [
         desc: 'Il Rinascimento dell\'automobile. Esplora le colline toscane con la nobiltà e le performance delle nostre vetture più iconiche.'
     },
     {
+        id: 'venezia',
+        city: 'VENEZIA',
+        address: 'Piazza San Marco – 30100 Venezia',
+        coords: [45.4341, 12.3388] as [number, number],
+        phone: '+39 3206144070',
+        email: 'info@mfitalyluxuryrent.it',
+        image: veneziaHero,
+        fallbackImage: veneziaHero,
+        desc: 'La magia della Serenissima esaltata dal lusso delle nostre Supercar. Arrivi in stile con water taxi privato e partenze memorabili verso la terraferma.'
+    },
+    {
+        id: 'napoli',
+        city: 'NAPOLI',
+        address: 'Via Caracciolo, 10 – 80122 Napoli',
+        coords: [40.8518, 14.2681] as [number, number],
+        phone: '+39 3206144070',
+        email: 'info@mfitalyluxuryrent.it',
+        image: napoliHero,
+        fallbackImage: napoliHero,
+        desc: 'Il fascino senza tempo di Napoli con la potenza ineguagliabile delle nostre Supercar. Dal Vesuvio al lungomare, ogni corsa diventa leggenda.'
+    },
+    {
         id: 'fiumicino',
         city: 'AEROPORTO FIUMICINO',
-        address: 'Terminal T3',
+        address: 'Aeroporto Fiumicino – Terminal T3',
         coords: [41.7999, 12.2462] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
         image: fiumicinoHero,
         fallbackImage: fiumicinoHero,
-        desc: 'Il tuo viaggio d\'élite inizia al gate. Servizio meet-and-greet personalizzato e consegna immediata per non perdere neanche un secondo.'
+        desc: 'Il tuo viaggio d\'élite inizia al gate. Servizio meet-and-greet personalizzato e consegna immediata direttamente in pista.'
     },
     {
         id: 'fortedeimarmi',
-        city: 'FORTE DEI MARMI BRANCH',
-        address: 'Via Carducci',
+        city: 'FORTE DEI MARMI',
+        address: 'Via Carducci – 55042 Forte dei Marmi',
         coords: [43.9587, 10.1685] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
         image: fortedeimarmiHero,
         fallbackImage: fortedeimarmiHero,
         desc: 'L\'essenza della Versilia Exclusive. Cabriolet di lusso e Super Suv per le tue estati nel cuore del glamour italiano più autentico.'
-    },
-    {
-        id: 'miami',
-        city: 'MIAMI HQ',
-        address: 'Ocean Drive, South Beach',
-        coords: [25.7617, -80.1918] as [number, number],
-        phone: '+39 3206144070',
-        email: 'info@mfitalyluxuryrent.it',
-        image: miamiHero,
-        fallbackImage: miamiHero,
-        desc: 'L\'eccellenza MF sbarca negli Stati Uniti. Il lusso di Miami vissuto con lo stile inconfondibile del nostro showroom d\'élite.'
     }
 ];
