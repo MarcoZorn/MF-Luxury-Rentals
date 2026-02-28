@@ -1,19 +1,4 @@
 
-import romaHero from '../assets/images/locations/roma.jpg';
-import milanoHero from '../assets/images/locations/milano.jpg';
-import ibizaHero from '../assets/images/locations/ibiza.jpg';
-import portoCervoHero from '../assets/images/locations/portocervo.jpg';
-import cannesHero from '../assets/images/locations/cannes.jpg';
-import montecarloHero from '../assets/images/locations/montecarlo.jpg';
-import barcelonaHero from '../assets/images/locations/barcelona.jpg';
-import parisHero from '../assets/images/locations/paris.jpg';
-import berlinHero from '../assets/images/locations/berlin.jpg';
-import firenzeHero from '../assets/images/locations/firenze.jpg';
-import veneziaHero from '../assets/images/locations/venezia.jpg';
-import napoliHero from '../assets/images/locations/napoli.jpg';
-import fiumicinoHero from '../assets/images/locations/fiumicino.jpg';
-import fortedeimarmiHero from '../assets/images/locations/fortedeimarmi.jpg';
-
 export const locations = [
     {
         id: 'roma',
@@ -22,8 +7,8 @@ export const locations = [
         coords: [41.9062, 12.4897] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: romaHero,
-        fallbackImage: romaHero,
+        image: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80',
         desc: 'Il cuore pulsante del nostro impero nel centro della Dolce Vita. Uno showroom d\'élite dove la maestosità di Roma incontra l\'eccellenza delle nostre Supercar.'
     },
     {
@@ -33,8 +18,8 @@ export const locations = [
         coords: [45.4642, 9.1900] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: milanoHero,
-        fallbackImage: milanoHero,
+        image: 'https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800&q=80',
         desc: 'Il Fashion District milanese incontra la potenza ingegneristica. La nostra lounge privata per un business d\'alta classe e uno stile senza tempo.'
     },
     {
@@ -44,8 +29,8 @@ export const locations = [
         coords: [38.9067, 1.4206] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: ibizaHero,
-        fallbackImage: ibizaHero,
+        image: 'https://images.unsplash.com/photo-1661887561486-1f771e7b2cab?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1661887561486-1f771e7b2cab?w=800&q=80',
         desc: 'L\'isola dell\'esclusività assoluta. SUV e Cabriolet di lusso per dominare le notti più prestigiose e i tramonti mozzafiato del Mediterraneo.'
     },
     {
@@ -55,8 +40,8 @@ export const locations = [
         coords: [41.1331, 9.5303] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: portoCervoHero,
-        fallbackImage: portoCervoHero,
+        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
         desc: 'Lusso senza confini nella magica cornice della Costa Smeralda. Eleganza vista mare e servizi concierge su misura per chi abita l\'eccellenza.'
     },
     {
@@ -66,8 +51,8 @@ export const locations = [
         coords: [43.5528, 7.0174] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: cannesHero,
-        fallbackImage: cannesHero,
+        image: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80',
         desc: 'Il fascino della Croisette e lo stile inconfondibile di MF. Per chi sceglie solo l\'eccellenza sulla Costa Azzurra.'
     },
     {
@@ -77,8 +62,8 @@ export const locations = [
         coords: [43.7384, 7.4246] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: montecarloHero,
-        fallbackImage: montecarloHero,
+        image: 'https://images.unsplash.com/photo-1595138320174-a64d168e9970?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1595138320174-a64d168e9970?w=800&q=80',
         desc: 'L\'apice del lusso mondiale. Consegna esclusiva yacht-side, assistenza VIP e le Supercar più desiderate nel cuore del Principato.'
     },
     {
@@ -88,8 +73,8 @@ export const locations = [
         coords: [41.3851, 2.1734] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: barcelonaHero,
-        fallbackImage: barcelonaHero,
+        image: 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80',
         desc: 'Vivacità mediterranea e architettura iconica incontrano il prestigio della nostra flotta esclusiva per un\'esperienza catalana senza pari.'
     },
     {
@@ -99,8 +84,8 @@ export const locations = [
         coords: [48.8566, 2.3522] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: parisHero,
-        fallbackImage: parisHero,
+        image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80',
         desc: 'La Ville Lumière vissuta con l\'eleganza suprema delle nostre Supercar. Il lusso parigino firmato MF.'
     },
     {
@@ -110,8 +95,8 @@ export const locations = [
         coords: [52.5200, 13.4050] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: berlinHero,
-        fallbackImage: berlinHero,
+        image: 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&q=80',
         desc: 'Tecnologia d\'avanguardia e performance pura per esplorare la dinamica capitale tedesca.'
     },
     {
@@ -121,8 +106,8 @@ export const locations = [
         coords: [43.7696, 11.2558] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: firenzeHero,
-        fallbackImage: firenzeHero,
+        image: 'https://images.unsplash.com/photo-1541370976299-4d24ebbc9077?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1541370976299-4d24ebbc9077?w=800&q=80',
         desc: 'Il Rinascimento dell\'automobile. Esplora le colline toscane con la nobiltà e le performance delle nostre vetture più iconiche.'
     },
     {
@@ -132,8 +117,8 @@ export const locations = [
         coords: [45.4341, 12.3388] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: veneziaHero,
-        fallbackImage: veneziaHero,
+        image: 'https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?w=800&q=80',
         desc: 'La magia della Serenissima esaltata dal lusso delle nostre Supercar. Arrivi in stile con water taxi privato e partenze memorabili verso la terraferma.'
     },
     {
@@ -143,8 +128,8 @@ export const locations = [
         coords: [40.8518, 14.2681] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: napoliHero,
-        fallbackImage: napoliHero,
+        image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80',
         desc: 'Il fascino senza tempo di Napoli con la potenza ineguagliabile delle nostre Supercar. Dal Vesuvio al lungomare, ogni corsa diventa leggenda.'
     },
     {
@@ -154,8 +139,8 @@ export const locations = [
         coords: [41.7999, 12.2462] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: fiumicinoHero,
-        fallbackImage: fiumicinoHero,
+        image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80',
         desc: 'Il tuo viaggio d\'élite inizia al gate. Servizio meet-and-greet personalizzato e consegna immediata direttamente in pista.'
     },
     {
@@ -165,8 +150,8 @@ export const locations = [
         coords: [43.9587, 10.1685] as [number, number],
         phone: '+39 3206144070',
         email: 'info@mfitalyluxuryrent.it',
-        image: fortedeimarmiHero,
-        fallbackImage: fortedeimarmiHero,
+        image: 'https://images.unsplash.com/photo-1499678329028-101435549a4e?w=800&q=80',
+        fallbackImage: 'https://images.unsplash.com/photo-1499678329028-101435549a4e?w=800&q=80',
         desc: 'L\'essenza della Versilia Exclusive. Cabriolet di lusso e Super Suv per le tue estati nel cuore del glamour italiano più autentico.'
     }
 ];

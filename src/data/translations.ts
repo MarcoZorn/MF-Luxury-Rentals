@@ -304,6 +304,7 @@ export const translations: Record<string, Record<string, any>> = {
             division: 'MF Italy Luxury Rent — Hypercar Division'
         }
     },
+
     EN: {
         nav: { home: 'HOME', fleet: 'FLEET', locations: 'LOCATIONS', about: 'ABOUT US', contact: 'CONTACT US', services: 'LUXURY SERVICES', wedding: 'WEDDING SERVICE' },
         hero: { title1: "YOU DON'T RENT A CAR", title2: 'YOU DOMINATE THE ROAD', subtitle: 'Exclusive Supercars. Uncompromising experiences. Rome at your feet', ctaFleet: 'EXPLORE THE FLEET', ctaRequest: 'CHECK AVAILABILITY' },
@@ -356,7 +357,6 @@ export const translations: Record<string, Record<string, any>> = {
             clock: { title: '24/7 Operational Efficiency', desc: 'A dedicated team is by your side in every time zone, ensuring immediate support.' },
             star: { title: 'Elite Lifestyle Concierge', desc: 'Tailor-made experiences, professional multilingual drivers and exclusive club access.' }
         },
-        carDetail: { specs: { power: 'Power', acceleration: '0-100 km/h', speed: 'Max Speed' }, booking: { title: 'CHECK AVAILABILITY', name: 'Full Name', email: 'Email', phone: 'Phone', pickup: 'Pickup', dropoff: 'Dropoff', submit: 'SEND REQUEST', noPayment: 'No payment required now' }, sound: { title: 'Exclusive Supercars', subtitle: 'Uncompromising experiences. Rome at your feet' }, model3d: '3D VISUALIZATION' },
         locations: {
             titlePart1: 'YOUR LUXURY ', everywhere: 'JOURNEY', heroTag: 'TRAVEL WITH US', heroTitle: 'YOUR LUXURY JOURNEY STARTS HERE',
             subtitle: 'Every destination has an identity and how you live it makes the difference. MF accompanies you giving you the freedom to explore exclusive destinations in Italy and Europe',
@@ -446,7 +446,6 @@ export const translations: Record<string, Record<string, any>> = {
                 cta: 'Discover Exclusivity'
             }
         },
-        cars: { descriptions: { rsq8: 'Physics defying SUV.', q8: 'Elegance and tech.', cayenne: 'Fastest Cayenne.', g63: 'Timeless icon.', levante: 'GT Soul.', urus: 'Ultimate Super SUV.', macan: 'Compact sport.', rsq3: 'Legendary 5-cyl.', purosangue: 'V12 4-door.', m4: 'Sports coupe.', rs3: 'Compact aggressive.', rs6: 'Station wagon queen.', m8: 'Open top luxury.', spyder718: 'Pure driving.', huracan: 'V10 open air.', p911: 'Timeless icon.', f296: 'Hybrid V6.', f812: 'V12 Spider.', portofino: 'Elegant GT.', continental: 'Grand Touring.', grancabrio: 'Timeless design.', sf90: 'Fastest Ferrari.', f8: 'V8 Tribute.', revuelto: 'V12 Hybrid.', roma: 'New Dolce Vita.', r8: 'V10 Performance Icon.', chiron: 'The Absolute Peak.' } },
         contactPage: {
             heroTag: 'CONTACT US',
             heroTitle: 'BOOK YOUR DREAM',
@@ -535,6 +534,7 @@ export const translations: Record<string, Record<string, any>> = {
             division: 'MF Italy Luxury Rent — Hypercar Division'
         }
     },
+
     FR: {
         nav: { home: 'ACCUEIL', fleet: 'NOTRE FLOTTE', locations: 'VILLES', about: 'QUI SOMMES-NOUS', contact: 'CONTACTEZ-NOUS', services: 'SERVICES DE LUXE', wedding: 'SERVICE MARIAGE' },
         hero: { title1: "VOUS NE LOUEZ PAS UNE VOITURE", title2: 'VOUS DOMINEZ LA ROUTE', subtitle: 'Supercars exclusives. Expériences sans compromis. Rome à vos pieds', ctaFleet: 'DÉCOUVRIR LA FLOTTE', ctaRequest: 'VÉRIFIER LA DISPONIBILITÉ' },
@@ -587,7 +587,6 @@ export const translations: Record<string, Record<string, any>> = {
             clock: { title: 'Efficacité Opérationnelle 24/7', desc: 'Une équipe dédiée est à vos côtés dans chaque fuseau horaire, garantissant une assistance immédiate.' },
             star: { title: 'Conciergerie Lifestyle d\'Élite', desc: 'Expériences sur mesure, chauffeurs multilingues professionnels et accès exclusif aux clubs.' }
         },
-        carDetail: { specs: { power: 'Puissance', acceleration: '0-100 km/h', speed: 'Vitesse Max' }, booking: { title: 'VÉRIFIER DISPONIBILITÉ', name: 'Nom Complet', email: 'Email', phone: 'Téléphone', pickup: 'Retrait', dropoff: 'Retour', submit: 'ENVOYER', noPayment: 'Aucun paiement requis' }, sound: { title: 'Supercars exclusives', subtitle: 'Expériences sans compromis. Rome à vos pieds' }, model3d: 'VUE 3D' },
         locations: {
             titlePart1: 'VOTRE VOYAGE ', everywhere: 'DE LUXE', heroTag: 'VOYAGEZ AVEC NOUS', heroTitle: 'VOTRE VOYAGE DE LUXE COMMENCE ICI',
             subtitle: 'Chaque destination a une identité. MF vous accompagne pour explorer les lieux les plus exclusifs en Italie et en Europe',
@@ -645,7 +644,6 @@ export const translations: Record<string, Record<string, any>> = {
             model3d: 'VISUALISATION 3D',
             similarCars: 'VOITURES SIMILAIRES'
         },
-        carCard: { details: 'EN SAVOIR PLUS', pricePerDay: 'par jour', onRequest: 'SUR DEMANDE', customQuote: 'DEVIS PERSONNALISÉ' },
         fleet: {
             titlePart1: 'NOTRE ',
             collection: 'FLOTTE',
@@ -681,7 +679,6 @@ export const translations: Record<string, Record<string, any>> = {
             onRequest: 'Prix sur demande',
             details: 'VOIR DÉTAILS'
         },
-        cars: { descriptions: { purosangue: 'V12 Atmosphérique', urus: 'Super SUV', ferrari: 'Performance pure', r8: 'Icône V10 Performance', chiron: 'Le Sommet Absolu' } },
         contactPage: {
             heroTag: 'CONTACTEZ-NOUS',
             heroTitle: 'RÉSERVEZ VOTRE RÊVE',
@@ -770,6 +767,7 @@ export const translations: Record<string, Record<string, any>> = {
             division: 'MF Italy Luxury Rent — Hypercar Division'
         }
     },
+
     ES: {
         nav: { home: 'INICIO', fleet: 'FLOTA', locations: 'CIUDADES', about: 'SOBRE NOSOTROS', contact: 'CONTÁCTENOS', services: 'SERVICIOS DE LUJO', wedding: 'SERVICIO BODAS' },
         hero: { title1: "NO ALQUILAS UN COCHE", title2: 'DOMINAS LA CARRETERA', subtitle: 'Supercoches exclusivos. Experiencias sin concesiones. Roma a tus pies', ctaFleet: 'EXPLORAR FLOTA', ctaRequest: 'COMPROBAR DISPONIBILIDAD' },
@@ -822,7 +820,6 @@ export const translations: Record<string, Record<string, any>> = {
             clock: { title: 'Eficiencia Operativa 24/7', desc: 'Un equipo dedicado está a su lado en cada zona horaria, asegurando asistencia inmediata.' },
             star: { title: 'Conserjería Lifestyle de Élite', desc: 'Experiencias a medida, chóferes multilingües profesionales y acceso exclusivo a clubes.' }
         },
-        carDetail: { specs: { power: 'Potencia', acceleration: '0-100 km/h', speed: 'Vel. Máx' }, booking: { title: 'COMPROBAR DISPONIBILIDAD', name: 'Nombre Completo', email: 'Email', phone: 'Teléfono', pickup: 'Recogida', dropoff: 'Entrega', submit: 'ENVIAR', noPayment: 'Sin pago ahora' }, sound: { title: 'Supercoches exclusivos', subtitle: 'Experiencias sin concesiones. Roma a tus pies' }, model3d: 'VISTA 3D' },
         locations: {
             titlePart1: 'TU VIAJE ', everywhere: 'DE LUJO', heroTag: 'VIAJA CON NOSOTROS', heroTitle: 'TU VIAJE DE LUJO COMIENZA AQUÍ',
             subtitle: 'Cada destino tiene una identidad. MF te acompaña para explorar los lugares más exclusivos de Italia y Europa',
@@ -874,7 +871,6 @@ export const translations: Record<string, Record<string, any>> = {
             model3d: 'VISUALIZACIÓN 3D',
             similarCars: 'COCHES SIMILARES'
         },
-        carCard: { details: 'DESCUBRIR MÁS', pricePerDay: 'al día', onRequest: 'A PETICIÓN', customQuote: 'PRESUPUESTO PERSONALIZADO' },
         fleet: {
             titlePart1: 'LA ',
             collection: 'FLOTA',
@@ -910,7 +906,6 @@ export const translations: Record<string, Record<string, any>> = {
             onRequest: 'Precio bajo petición',
             details: 'VER DETALLES'
         },
-        cars: { descriptions: { purosangue: 'V12 Atmosférico', urus: 'Super SUV', r8: 'Icono V10 Performance', chiron: 'El Cúspide Absoluto' } },
         contactPage: {
             heroTag: 'CONTÁCTENOS',
             heroTitle: 'RESERVA TU SUEÑO',
@@ -999,6 +994,7 @@ export const translations: Record<string, Record<string, any>> = {
             division: 'MF Italy Luxury Rent — Hypercar Division'
         }
     },
+
     RU: {
         nav: { home: 'ГЛАВНАЯ', fleet: 'АВТОПАРК', locations: 'ГОРОДА', about: 'О НАС', contact: 'КОНТАКТЫ', services: 'ЛЮКС УСЛУГИ', wedding: 'СВАДЕБНЫЕ УСЛУГИ' },
         hero: { title1: "ВЫ НЕ АРЕНДУЕТЕ АВТО", title2: 'ВЫ ДОМИНИРУЕТЕ НА ДОРОГЕ', subtitle: 'Эксклюзивные суперкары. Впечатления без компромиссов. Рим у ваших ног', ctaFleet: 'ИЗУЧИТЬ ФЛОТ', ctaRequest: 'ПРОВЕРИТЬ НАЛИЧИЕ' },
@@ -1051,7 +1047,6 @@ export const translations: Record<string, Record<string, any>> = {
             clock: { title: 'Операционная эффективность 24/7', desc: 'Специальная команда находится рядом с вами в любом часовом поясе.' },
             star: { title: 'Элитный лайфстайл-консьерж', desc: 'Индивидуальные впечатления, профессиональные многоязычные водители и эксклюзивный доступ.' }
         },
-        carDetail: { specs: { power: 'Мощность', acceleration: '0-100 км/ч', speed: 'Макс. скорость' }, booking: { title: 'ПРОВЕРИТЬ НАЛИЧИЕ', name: 'Имя', email: 'Email', phone: 'Телефон', pickup: 'Получение', dropoff: 'Возврат', submit: 'ОТПРАВИТЬ', noPayment: 'Без оплаты сейчас' }, sound: { title: 'Эксклюзивные суперкары', subtitle: 'Впечатления без компромиссов' }, model3d: '3D ПРОСМОТР' },
         locations: {
             titlePart1: 'ВАШЕ ', everywhere: 'ПУТЕШЕСТВИЕ', heroTag: 'ПУТЕШЕСТВУЙТЕ С НАМИ', heroTitle: 'ВАШЕ ЛЮКС ПУТЕШЕСТВИЕ',
             subtitle: 'Каждое направление уникально. MF сопровождает вас в самых эксклюзивных местах Италии и Европы',
@@ -1103,7 +1098,6 @@ export const translations: Record<string, Record<string, any>> = {
             model3d: '3D ВИЗУАЛИЗАЦИЯ',
             similarCars: 'ПОХОЖИЕ АВТОМОБИЛИ'
         },
-        carCard: { details: 'ПОДРОБНЕЕ', pricePerDay: 'в день', onRequest: 'ПО ЗАПРОСУ', customQuote: 'ПЕРСОНАЛЬНЫЙ РАСЧЕТ' },
         fleet: {
             titlePart1: 'АВТО',
             collection: 'ПАРК',
@@ -1139,7 +1133,6 @@ export const translations: Record<string, Record<string, any>> = {
             onRequest: 'Цена по запросу',
             details: 'ПОДРОБНЕЕ'
         },
-        cars: { descriptions: { purosangue: 'V12 Атмосферный', urus: 'Супер SUV', r8: 'Икона V10 Performance', chiron: 'Абсолютный пик' } },
         contactPage: {
             heroTag: 'КОНТАКТЫ',
             heroTitle: 'ЗАБРОНИРУЙ МЕЧТУ',
@@ -1228,6 +1221,7 @@ export const translations: Record<string, Record<string, any>> = {
             division: 'MF Italy Luxury Rent — Hypercar Division'
         }
     },
+
     AR: {
         nav: { home: 'الرئيسية', fleet: 'أسطولنا', locations: 'المدن', about: 'من نحن', contact: 'اتصل بنا', services: 'خدمات فاخرة', wedding: 'خدمة الزفاف' },
         hero: { title1: "أنت لا تستأجر سيارة", title2: 'أنت تهيمن على الطريق', subtitle: 'سيارات خارقة حصرية. تجارب بلا مساومة. روما تحت قدميك', ctaFleet: 'استكشف الأسطول', ctaRequest: 'تحقق من التوفر' },
@@ -1280,7 +1274,6 @@ export const translations: Record<string, Record<string, any>> = {
             clock: { title: 'كفاءة تشغيلية على مدار الساعة', desc: 'فريق متخصص بجانبك في كل منطقة زمنية، مما يضمن الدعم الفوري.' },
             star: { title: 'كونسيرج لايف ستايل النخبة', desc: 'تجارب مصممة خصيصاً، وسائقون محترفون متعددون اللغات ودخول حصري للنوادي.' }
         },
-        carDetail: { specs: { power: 'القوة', acceleration: '0-100 كم/س', speed: 'السرعة القصوى' }, booking: { title: 'تحقق من التوفر', name: 'الاسم الكامل', email: 'البريد الإلكتروني', phone: 'الهاتف', pickup: 'الاستلام', dropoff: 'التسليم', submit: 'إرسال', noPayment: 'لا دفع مطلوب الآن' }, sound: { title: 'سيارات خارقة حصرية', subtitle: 'تجارب بلا مساومة' }, model3d: 'عرض ثلاثي الأبعاد' },
         locations: {
             titlePart1: 'رحلتك ', everywhere: 'الفاخرة', heroTag: 'سافر معنا', heroTitle: 'رحلتك الفاخرة تبدأ هنا',
             subtitle: 'كل وجهة لها هوية. MF ترافقك لاستكشاف أكثر الأماكن تميزاً في إيطاليا وأوروبا',
@@ -1341,7 +1334,6 @@ export const translations: Record<string, Record<string, any>> = {
             model3d: 'تصور ثلاثي الأبعاد',
             similarCars: 'سيارات مشابهة'
         },
-        carCard: { details: 'اكتشف المزيد', pricePerDay: 'في اليوم', onRequest: 'عند الطلب', customQuote: 'عرض مخصص' },
         fleet: {
             titlePart1: 'أسطول ',
             collection: 'السيارات',
@@ -1377,7 +1369,6 @@ export const translations: Record<string, Record<string, any>> = {
             onRequest: 'السعر عند الطلب',
             details: 'عرض التفاصيل'
         },
-        cars: { descriptions: { purosangue: 'V12 تنفس طبيعي.', urus: 'سوبر س.يو.في.', r8: 'أيقونة V10 Performance.', chiron: 'القمة المطلقة.' } },
         contactPage: {
             heroTag: 'اتصل بنا',
             heroTitle: 'احجز حلمك',
@@ -1466,4 +1457,5 @@ export const translations: Record<string, Record<string, any>> = {
             division: 'MF Italy Luxury Rent — Hypercar Division'
         }
     }
+
 };
