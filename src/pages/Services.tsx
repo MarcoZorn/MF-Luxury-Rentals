@@ -87,7 +87,7 @@ const Services: React.FC = () => {
             <div className="border-y border-white/5 bg-white/[0.02] py-5 mb-20">
                 <div className="container mx-auto px-6">
                     <div className="flex flex-wrap items-center justify-center gap-10 md:gap-20">
-                        {trustBadges.map(({ icon: Icon, label }, i) => (
+                        {trustBadges.map(({ icon: Icon }, i) => (
                             <motion.div
                                 key={i}
                                 initial={{ opacity: 0, y: 10 }}
@@ -97,7 +97,9 @@ const Services: React.FC = () => {
                                 className="flex items-center gap-3"
                             >
                                 <Icon size={18} className="text-luxury-gold" />
-                                <span className="text-[11px] font-bold tracking-[0.25em] text-white/60 uppercase">{label}</span>
+                                <span className="text-[11px] font-bold tracking-[0.25em] text-white/60 uppercase">
+                                    {t(`services.trustBadges.${i}`)}
+                                </span>
                             </motion.div>
                         ))}
                     </div>
@@ -151,14 +153,14 @@ const Services: React.FC = () => {
                 >
                     <div>
                         <span className="text-luxury-gold text-[10px] font-black tracking-[0.5em] uppercase mb-3 block">
-                            BEYOND THE CAR
+                            {t('services.beyondCar')}
                         </span>
                         <h2 className="text-3xl md:text-6xl font-display font-bold text-white uppercase tracking-tighter">
                             {t('services.premiumIntro')}
                         </h2>
                     </div>
                     <p className="text-gray-400 font-light max-w-xs text-right text-sm leading-relaxed hidden md:block">
-                        Every moment curated.<br />Every detail masterful.
+                        {t('services.detailsMasterful')}
                     </p>
                 </motion.div>
 
@@ -225,7 +227,7 @@ const Services: React.FC = () => {
                                             <Heart size={22} className="text-luxury-gold" />
                                         </div>
                                         <span className="text-luxury-gold font-bold tracking-[0.5em] uppercase text-[10px]">
-                                            WEDDING SERVICE
+                                            {t('nav.wedding')}
                                         </span>
                                     </div>
                                     <h2 className="text-4xl md:text-6xl font-display font-bold text-white uppercase tracking-tight mb-6 leading-tight">
@@ -252,14 +254,10 @@ const Services: React.FC = () => {
                     className="mb-24"
                 >
                     <h2 className="text-2xl md:text-4xl font-display font-bold text-white text-center mb-12 uppercase tracking-tight">
-                        Why Choose <span className="text-luxury-gold">MF Italy</span>
+                        {t('services.whyChooseTitle').split(' ')[0]} {t('services.whyChooseTitle').split(' ')[1]} <span className="text-luxury-gold">{t('services.whyChooseTitle').split(' ').slice(2).join(' ')}</span>
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {[
-                            { title: 'Owned Fleet — Zero Intermediaries', desc: 'Every vehicle is directly owned by MF Italy. No third-party brokers, no hidden fees.' },
-                            { title: 'Delivery Anywhere in Europe', desc: 'Your car delivered to your hotel, marina, or airport — wherever you are in Europe.' },
-                            { title: 'Fully Insured & Certified', desc: 'Full Kasko coverage, mechanical excellence certification, and peace-of-mind guarantee.' },
-                        ].map((item, i) => (
+                        {[0, 1, 2].map((i) => (
                             <motion.div
                                 key={i}
                                 initial={{ opacity: 0, y: 20 }}
@@ -269,8 +267,12 @@ const Services: React.FC = () => {
                                 className="bg-white/[0.03] border border-white/8 rounded-3xl p-8 hover:border-luxury-gold/30 hover:bg-white/[0.05] transition-all duration-500 group"
                             >
                                 <div className="w-10 h-[2px] bg-luxury-gold mb-6 group-hover:w-16 transition-all duration-500" />
-                                <h3 className="text-white font-bold text-lg mb-3 uppercase tracking-wide">{item.title}</h3>
-                                <p className="text-gray-400 text-sm leading-relaxed font-light">{item.desc}</p>
+                                <h3 className="text-white font-bold text-lg mb-3 uppercase tracking-wide">
+                                    {t(`services.whyChooseItems.${i}.title`)}
+                                </h3>
+                                <p className="text-gray-400 text-sm leading-relaxed font-light">
+                                    {t(`services.whyChooseItems.${i}.desc`)}
+                                </p>
                             </motion.div>
                         ))}
                     </div>
@@ -291,17 +293,17 @@ const Services: React.FC = () => {
                         {t('services.cta')}
                     </h2>
                     <p className="text-gray-400 mb-10 text-lg font-light max-w-xl mx-auto">
-                        Your personal MF concierge is available 24 hours a day, 7 days a week.
+                        {t('services.conciergeAvailability')}
                     </p>
                     <div className="flex flex-wrap gap-4 items-center justify-center">
                         <a href="https://wa.me/393206144070" target="_blank" rel="noopener noreferrer">
                             <Button className="px-12 py-5 bg-luxury-gold text-black font-black tracking-[0.2em] text-sm rounded-full shadow-[0_0_50px_rgba(212,175,55,0.3)] hover:shadow-[0_0_80px_rgba(212,175,55,0.5)] hover:scale-105 transition-all">
-                                WHATSAPP DIRECT
+                                {t('services.whatsappDirect')}
                             </Button>
                         </a>
                         <Link to="/contact">
                             <Button variant="outline" className="px-12 py-5 rounded-full font-bold tracking-widest text-sm border-white/20 text-white hover:border-luxury-gold hover:text-luxury-gold transition-all">
-                                CONTACT US
+                                {t('services.contactUs')}
                             </Button>
                         </Link>
                     </div>

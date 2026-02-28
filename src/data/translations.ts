@@ -43,7 +43,24 @@ export const translations: Record<string, Record<string, any>> = {
             intro: 'Lascia che sia MF ad occuparsi di tutto ciò che ti occorre',
             premiumIntro: 'Servizi premium e esperienze di lusso su misura tra cui:',
             cta: 'RICHIEDI I SERVIZI MF',
-            items: [
+            trustBadges: [
+                'Miglior Noleggio Luxury 2024',
+                'Assicurazione Full Kasko',
+                'Concierge Support 24/7',
+                '8+ Anni di Eccellenza'
+            ],
+            beyondCar: 'OLTRE L\'AUTO',
+            detailsMasterful: 'Ogni momento curato. Ogni dettaglio magistrale.',
+            whyChooseTitle: 'Perché Scegliere MF Italy',
+            whyChooseItems: [
+                { title: 'Flotta di Proprietà — Zero Intermediari', desc: 'Ogni veicolo è di proprietà diretta di MF Italy. Nessun broker terzo, nessuna commissione nascosta.' },
+                { title: 'Consegna Ovunque in Europa', desc: 'La tua auto consegnata in hotel, marina o aeroporto — ovunque tu sia in Europa.' },
+                { title: 'Interamente Assicurata e Certificata', desc: 'Copertura Full Kasko, certificazione di eccellenza meccanica e garanzia di massima tranquillità.' }
+            ],
+            conciergeAvailability: 'Il tuo concierge personale MF è disponibile 24 ore su 24, 7 giorni su 7.',
+            whatsappDirect: 'WHATSAPP DIRETTO',
+            contactUs: 'CONTATTACI',
+                items: [
                 { title: 'LUXURY RENTAL', desc: 'Lusso vero senza eguali. Scegli le nostre auto di proprietà tra Supercar, Sportcar, SUV e SuperSUV, Executive e Cabriolet' },
                 { title: 'FLEX FREE CHOICE', desc: 'Ci adattiamo alle tue esigenze. Consegna o ritira la tua auto dove vuoi. Massima libertà e flessibilità.' },
                 { title: 'PERSONAL DRIVER', desc: 'Accoglienza impeccabile dal primo momento. Autista privato altamente qualificato per accompagnarti al tuo punto d’incontro, stazione, aeroporto o appuntamento' },
@@ -322,8 +339,27 @@ export const translations: Record<string, Record<string, any>> = {
         services: {
             heroTitle: 'LUXURY SERVICES',
             heroSubtitle: 'Beyond just renting your supercar',
-            intro: 'Let MF take care of everything you need', premiumIntro: 'Premium services and tailor-made luxury experiences including', cta: 'REQUEST MF SERVICES',
-            items: [
+            intro: 'Let MF take care of everything you need',
+            premiumIntro: 'Premium services and tailor-made luxury experiences including:',
+            cta: 'REQUEST MF SERVICES',
+            trustBadges: [
+                'Best Luxury Rental 2024',
+                'Full Kasko Insurance',
+                '24/7 Concierge Support',
+                '8+ Years of Excellence'
+            ],
+            beyondCar: 'BEYOND THE CAR',
+            detailsMasterful: 'Every moment curated. Every detail masterful.',
+            whyChooseTitle: 'Why Choose MF Italy',
+            whyChooseItems: [
+                { title: 'Owned Fleet — Zero Intermediaries', desc: 'Every vehicle is directly owned by MF Italy. No third-party brokers, no hidden fees.' },
+                { title: 'Delivery Anywhere in Europe', desc: 'Your car delivered to your hotel, marina, or airport — wherever you are in Europe.' },
+                { title: 'Fully Insured & Certified', desc: 'Full Kasko coverage, mechanical excellence certification, and peace-of-mind guarantee.' }
+            ],
+            conciergeAvailability: 'Your personal MF concierge is available 24 hours a day, 7 days a week.',
+            whatsappDirect: 'WHATSAPP DIRECT',
+            contactUs: 'CONTACT US',
+                items: [
                 { title: 'LUXURY RENTAL', desc: 'True luxury without equals. Choose our owned cars among Supercars, Sportcars, SUV and SuperSUV, Executive and Cabriolet' },
                 { title: 'FLEX FREE CHOICE', desc: 'We adapt to your needs. Deliver or pick up your car wherever you want. Maximum freedom and flexibility.' },
                 { title: 'PERSONAL DRIVER', desc: 'Impeccable welcome from the first moment. Highly qualified private driver to accompany you.' },
@@ -551,9 +587,28 @@ export const translations: Record<string, Record<string, any>> = {
         },
         services: {
             heroTitle: 'SERVICES DE LUXE',
-            heroSubtitle: 'Au-delà de la simple location',
-            intro: 'Laissez MF s\'occuper de tout:', premiumIntro: 'Services premium et expériences sur mesure:', cta: 'DEMANDER SERVICES MF',
-            items: [
+            heroSubtitle: 'Au-delà de la simple location de votre supercar',
+            intro: 'Laissez MF s\'occuper de tout ce dont vous avez besoin',
+            premiumIntro: 'Services premium et expériences de luxe sur mesure, notamment :',
+            cta: 'DEMANDER LES SERVICES MF',
+            trustBadges: [
+                'Meilleure Location de Luxe 2024',
+                'Assurance Tous Risques',
+                'Support Conciergerie 24/7',
+                '8+ Ans d\'Excellence'
+            ],
+            beyondCar: 'AU-DELÀ DE LA VOITURE',
+            detailsMasterful: 'Chaque instant soigné. Chaque détail magistrale.',
+            whyChooseTitle: 'Pourquoi Choisir MF Italy',
+            whyChooseItems: [
+                { title: 'Flotte en Propre — Zéro Intermédiaire', desc: 'Chaque véhicule appartient directement à MF Italy. Pas de courtiers tiers, pas de frais cachés.' },
+                { title: 'Livraison Partout en Europe', desc: 'Votre voiture livrée à votre hôtel, port ou aéroport — où que vous soyez en Europe.' },
+                { title: 'Entièrement Assuré et Certifié', desc: 'Couverture tous risques, certification d\'excellence mécanique et garantie de tranquillité d\'esprit.' }
+            ],
+            conciergeAvailability: 'Votre concierge personnel MF est à votre disposition 24h/24, 7j/7.',
+            whatsappDirect: 'WHATSAPP DIRECT',
+            contactUs: 'CONTACTEZ-NOUS',
+                items: [
                 { title: 'LOCATION DE LUXE', desc: 'Vrai luxe sans égal. Supercars, Sportcars, SUV, Cabriolet' },
                 { title: 'FLEX FREE CHOICE', desc: 'Livraison et retrait où vous voulez. Liberté maximale' },
                 { title: 'CHAUFFEUR PRIVÉ', desc: 'Accueil impeccable. Chauffeur qualifié pour tous vos déplacements' },
@@ -784,9 +839,28 @@ export const translations: Record<string, Record<string, any>> = {
         },
         services: {
             heroTitle: 'SERVICIOS DE LUJO',
-            heroSubtitle: 'Más allá del simple alquiler',
-            intro: 'Deja que MF se ocupe de todo', premiumIntro: 'Servicios premium y experiencias a medida', cta: 'SOLICITAR SERVICIOS MF',
-            items: [
+            heroSubtitle: 'Más allá del simple alquiler de su superdeportivo',
+            intro: 'Deje che MF se ocupe de todo lo que necesite',
+            premiumIntro: 'Servicios premium y experiencias de lujo a medida que incluyen:',
+            cta: 'SOLICITAR SERVICIOS MF',
+            trustBadges: [
+                'Mejor Alquiler de Lujo 2024',
+                'Seguro a Todo Riesgo',
+                'Soporte de Conserjería 24/7',
+                '8+ Años de Excelencia'
+            ],
+            beyondCar: 'MÁS ALLÁ DEL COCHE',
+            detailsMasterful: 'Cada momento cuidado. Cada detalle magistral.',
+            whyChooseTitle: '¿Por qué elegir MF Italy?',
+            whyChooseItems: [
+                { title: 'Flota Propia — Cero Intermediarios', desc: 'Cada vehículo es propiedad directa de MF Italy. Sin intermediarios, sin cargos ocultos.' },
+                { title: 'Entrega en cualquier lugar de Europa', desc: 'Su coche entregado en su hotel, puerto o aeropuerto — dondequiera que esté en Europa.' },
+                { title: 'Totalmente Asegurado y Certificado', desc: 'Cobertura a todo riesgo, certificación de excelencia mecánica y garantía de tranquilidad.' }
+            ],
+            conciergeAvailability: 'Su conserje personal de MF está disponible las 24 horas del día, los 7 días de la week.',
+            whatsappDirect: 'WHATSAPP DIRECTO',
+            contactUs: 'CONTÁCTENOS',
+                items: [
                 { title: 'ALQUILER DE LUJO', desc: 'Lujo verdadero sin igual. Coches propios' },
                 { title: 'ELECCIÓN LIBRE', desc: 'Entrega y recogida donde quieras. Máxima libertad' },
                 { title: 'CHOFER PRIVADO', desc: 'Bienvenida impecable. Chofer cualificado' },
@@ -1011,9 +1085,28 @@ export const translations: Record<string, Record<string, any>> = {
         },
         services: {
             heroTitle: 'ЛЮКС УСЛУГИ',
-            heroSubtitle: 'Больше, чем просто аренда',
-            intro: 'Позвольте MF позаботиться обо всем:', premiumIntro: 'Премиум услуги и опыт:', cta: 'ЗАПРОСИТЬ УСЛУГИ',
-            items: [
+            heroSubtitle: 'Больше, чем просто аренда вашего суперкара',
+            intro: 'Позвольте MF позаботиться обо всем, что вам нужно',
+            premiumIntro: 'Премиальные услуги и индивидуальный VIP-опыт, включая:',
+            cta: 'ЗАПРОСИТЬ УСЛУГИ MF',
+            trustBadges: [
+                'Лучшая люкс аренда 2024',
+                'Полная страховка Каско',
+                'Консьерж-сервис 24/7',
+                '8+ лет совершенства'
+            ],
+            beyondCar: 'БОЛЬШЕ ЧЕМ АВТОМОБИЛЬ',
+            detailsMasterful: 'Каждый момент продуман. Каждая деталь безупречна.',
+            whyChooseTitle: 'Почему выбирают MF Italy',
+            whyChooseItems: [
+                { title: 'Собственный автопарк — Без посредников', desc: 'Каждый автомобиль находится в прямой собственности MF Italy. Никаких сторонних брокеров и скрытых комиссий.' },
+                { title: 'Доставка в любую точку Европы', desc: 'Ваш автомобиль будет доставлен в отель, марину или аэропорт — где бы вы ни находились в Европе.' },
+                { title: 'Полная страховка и сертификация', desc: 'Полное покрытие Каско, сертификация технического совершенства и гарантия спокойствия.' }
+            ],
+            conciergeAvailability: 'Ваш личный консьерж MF доступен 24 часа в сутки, 7 дней в неделю.',
+            whatsappDirect: 'WHATSAPP НАПРЯМУЮ',
+            contactUs: 'СВЯЗАТЬСЯ С НАМИ',
+                items: [
                 { title: 'ЛЮКС АРЕНДА', desc: 'Истинная роскошь. Собственные авто' },
                 { title: 'СВОБОДНЫЙ ВЫБОР', desc: 'Доставка где угодно. Максимальная свобода' },
                 { title: 'ЛИЧНЫЙ ВОДИТЕЛЬ', desc: 'Квалифицированный водитель для вас' },
@@ -1239,8 +1332,27 @@ export const translations: Record<string, Record<string, any>> = {
         services: {
             heroTitle: 'خدمات فاخرة',
             heroSubtitle: 'أكثر من مجرد استئجار سيارتك الخارقة',
-            intro: 'دع MF تعتني بكل ما تحتاجه:', premiumIntro: 'خدمات متميزة وتجارب فاخرة مصممة خصيصاً:', cta: 'طلب خدمات MF',
-            items: [
+            intro: 'دع MF تعتني بكل ما تحتاجه',
+            premiumIntro: 'خدمات متميزة وتجارب فاخرة مصممة خصيصاً تشمل:',
+            cta: 'طلب خدمات MF',
+            trustBadges: [
+                'أفضل تأجير فاخر 2024',
+                'تأمين شامل',
+                'دعم كونسيرج 24/7',
+                'أكثر من 8 سنوات من التميز'
+            ],
+            beyondCar: 'ما وراء السيارة',
+            detailsMasterful: 'كل لحظة منظمة بذكاء. كل التفاصيل متقنة.',
+            whyChooseTitle: 'لماذا تختار MF Italy',
+            whyChooseItems: [
+                { title: 'أسطول مملوك — لا وسطاء', desc: 'كل مركبة مملوكة مباشرة لشركة MF Italy. لا وسطاء من طرف ثالث، ولا رسوم خفية.' },
+                { title: 'التسليم في أي مكان في أوروبا', desc: 'يتم تسليم سيارتك إلى فندقك أو المرسى أو المطار - أينما كنت في أوروبا.' },
+                { title: 'مؤمنة ومصنفة بالكامل', desc: 'تغطية شاملة، وشهادة تميز ميكانيكي، وضمان راحة البال.' }
+            ],
+            conciergeAvailability: 'كونسيرج MF الشخصي متاح 24 ساعة في اليوم، 7 أيام في الأسبوع.',
+            whatsappDirect: 'واتساب مباشر',
+            contactUs: 'اتصل بنا',
+                items: [
                 { title: 'تأجير فاخر', desc: 'رفاهية حقيقية. سيارات مملوكة' },
                 { title: 'حرية الاختيار', desc: 'تسليم واستلام أينما تريد. حرية قصوى' },
                 { title: 'سائق خاص', desc: 'سائق مؤهل لخدمتك' },
