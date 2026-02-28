@@ -12,6 +12,7 @@ const Services = lazy(() => import('./pages/Services'));
 const Wedding = lazy(() => import('./pages/Wedding'));
 const About = lazy(() => import('./pages/About'));
 const Locations = lazy(() => import('./pages/Locations'));
+const BugattiChiron = lazy(() => import('./pages/BugattiChiron'));
 const Privacy = lazy(() => import('./pages/legal/Privacy'));
 const Terms = lazy(() => import('./pages/legal/Terms'));
 const Cookies = lazy(() => import('./pages/legal/Cookies'));
@@ -42,6 +43,7 @@ function App() {
             <Route path="wedding" element={<Wedding />} />
             <Route path="about" element={<About />} />
             <Route path="locations" element={<Locations />} />
+            <Route path="bugatti-chiron" element={<BugattiChiron />} />
             <Route path="privacy" element={<Privacy />} />
             <Route path="terms" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />

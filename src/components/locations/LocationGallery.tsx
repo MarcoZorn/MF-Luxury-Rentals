@@ -81,7 +81,7 @@ const LocationGallery: React.FC = () => {
                                         {loc.desc}
                                     </p>
                                     <div className="flex items-center gap-2 text-luxury-gold text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 delay-100">
-                                        <span>Contatta questa sede</span>
+                                        <span>{t('locations.contactBranch')} {loc.name}</span>
                                         <ArrowRight size={14} />
                                     </div>
                                 </div>

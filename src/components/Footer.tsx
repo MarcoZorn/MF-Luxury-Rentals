@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     const { t } = useLanguage();
 
     const cities = ['roma', 'milano', 'montecarlo', 'ibiza', 'portocervo', 'cannes', 'barcellona', 'parigi', 'berlino', 'firenze', 'venezia', 'napoli', 'fiumicino', 'fortedeimarmi'];
-    const brands = ['Lamborghini', 'Ferrari', 'Porsche', 'Audi', 'Bentley', 'Maserati', 'Mercedes', 'BMW'];
+    const brands = ['Lamborghini', 'Ferrari', 'Porsche', 'Audi', 'Bentley', 'Maserati', 'Mercedes', 'BMW', 'Bugatti'];
 
     return (
         <footer className="relative bg-luxury-black border-t border-white/10 pt-24 pb-12 overflow-hidden">
