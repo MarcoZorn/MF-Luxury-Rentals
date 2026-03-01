@@ -59,11 +59,12 @@ const Navbar: React.FC = () => {
             >
                 <div className="container mx-auto px-6 flex justify-between items-center">
                     {/* Logo */}
-                    <Link to="/" className="relative z-50 group flex items-center" aria-label="MF Luxury Rentals Home">
+                    <Link to="/" className="flex items-center space-x-2 group" aria-label="MF Luxury Rentals Home">
                         <img
                             src={logoMain}
-                            alt="MF Italy Luxury Rent"
-                            className={`object-contain transition-all duration-300 ${isScrolled ? 'h-10' : 'h-12'}`}
+                            alt="MF Luxury Rent"
+                            className={`transition-all duration-500 object-contain ${isScrolled ? 'h-8 sm:h-10' : 'h-10 sm:h-14'
+                                } group-hover:scale-105`}
                         />
                     </Link>
 

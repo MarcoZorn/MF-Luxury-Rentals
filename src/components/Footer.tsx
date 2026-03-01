@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="container mx-auto px-6 relative z-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-20">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-20">
                     {/* Brand */}
                     <div className="lg:col-span-2 space-y-8">
                         <Link to="/" className="relative z-50 group flex items-start" aria-label="MF Luxury Rentals Home">

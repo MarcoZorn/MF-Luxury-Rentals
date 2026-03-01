@@ -15,6 +15,10 @@ const CarHero: React.FC<CarHeroProps> = ({ image, backupImage, name }) => {
     const { t } = useLanguage();
     const [imgSrc, setImgSrc] = React.useState(image);
 
+    React.useEffect(() => {
+        setImgSrc(image);
+    }, [image]);
+
     const handleError = () => {
         if (imgSrc !== backupImage && backupImage) {
             setImgSrc(backupImage);

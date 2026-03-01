@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 import { cars } from '../data/cars';
 import CarCard from '../components/CarCard';
 import { useLanguage } from '../hooks/useLanguage';
-import fleetHero from '../assets/images/ui/fleet-hero.jpg';
+const fleetHero = "/images/fleet/fleet-showcase-marble.webp";
 import { Search, ArrowUpDown, X as CloseIcon } from 'lucide-react';
 
 const Fleet: React.FC = () => {
@@ -34,8 +34,6 @@ const Fleet: React.FC = () => {
 
     const sortOptions = [
         { label: t('fleet.sortOptions.default'), value: "default" },
-        { label: t('fleet.sortOptions.priceAsc'), value: "priceAsc" },
-        { label: t('fleet.sortOptions.priceDesc'), value: "priceDesc" },
         { label: t('fleet.sortOptions.power'), value: "power" },
     ];
 
@@ -141,12 +139,16 @@ const Fleet: React.FC = () => {
                                 <select
                                     value={sortBy}
                                     onChange={(e) => setSortBy(e.target.value)}
-                                    className="w-full bg-white/5 border border-white/10 rounded-full py-3 pl-12 pr-4 text-sm text-white focus:outline-none focus:border-luxury-gold/50 appearance-none cursor-pointer"
+                                    className="w-full bg-white/5 border border-white/10 rounded-full py-3 pl-12 pr-10 text-sm text-white focus:outline-none focus:border-luxury-gold/50 appearance-none cursor-pointer"
                                     aria-label={t('fleet.sortBy')}
                                 >
-                                    {sortOptions.map(opt => (
-                                        <option key={opt.value} value={opt.value} className="bg-luxury-black text-white">{opt.label}</option>
-                                    ))}
+                                    {sortOptions.length > 1 ? (
+                                        sortOptions.map(opt => (
+                                            <option key={opt.value} value={opt.value} className="bg-luxury-black text-white">{opt.label}</option>
+                                        ))
+                                    ) : (
+                                        <option value="default" className="bg-luxury-black text-white">{t('fleet.sortOptions.default')}</option>
+                                    )}
                                 </select>
                             </div>
                         </div>
@@ -157,7 +159,7 @@ const Fleet: React.FC = () => {
                 {processedCars.length > 0 ? (
                     <motion.div
                         layout
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
                     >
                         <AnimatePresence mode="popLayout">
                             {processedCars.map((car) => (

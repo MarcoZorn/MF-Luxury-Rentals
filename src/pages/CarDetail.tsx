@@ -37,7 +37,7 @@ const CarDetail: React.FC = () => {
     const isChiron = car.id === 'bugatti-chiron';
 
     return (
-        <div className={`min-h-screen ${isChiron ? 'bg-black' : 'bg-luxury-black'} text-white pt-20 transition-colors duration-1000`}>
+        <div key={id} className={`min-h-screen ${isChiron ? 'bg-black' : 'bg-luxury-black'} text-white pt-20 transition-colors duration-1000`}>
             {isChiron && (
                 <div className="absolute top-24 left-1/2 -translate-x-1/2 z-30 pointer-events-none">
                     <motion.div

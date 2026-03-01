@@ -16,8 +16,8 @@ const About: React.FC = () => {
             {/* Background Image with Overlay */}
             <div className="fixed inset-0 z-0">
                 <img
-                    src={conciergeImg}
-                    alt=""
+                    src="/images/backgrounds/fleet-garage-lights.webp"
+                    alt="MF Luxury Garage"
                     className="w-full h-full object-cover opacity-60 grayscale scale-105"
                     loading="lazy"
                 />

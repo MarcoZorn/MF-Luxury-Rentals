@@ -32,6 +32,11 @@ const CarModel3D: React.FC<CarModel3DProps> = ({ modelUrl, name, fallbackImage }
         return () => observer.disconnect();
     }, []);
 
+    useEffect(() => {
+        setIsLoading(true);
+        setHasError(false);
+    }, [modelUrl]);
+
     // Timeout Fallback
     useEffect(() => {
         if (isVisible && isLoading) {

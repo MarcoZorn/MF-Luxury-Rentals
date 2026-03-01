@@ -233,7 +233,6 @@ const Contact: React.FC = () => {
                                         <p className="text-white font-bold">
                                             <a href="mailto:info@mfitalyluxuryrent.it" className="hover:text-luxury-gold transition-colors">info@mfitalyluxuryrent.it</a>
                                         </p>
-                                        <p className="text-gray-500 text-[10px] font-bold uppercase tracking-widest mt-1">{t('contactPage.response')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -288,7 +287,7 @@ const Contact: React.FC = () => {
                                     <h3 className="text-3xl font-display font-bold mb-10 tracking-tight">{t('contactPage.formTitle')}</h3>
 
                                     <form onSubmit={handleSubmit} className="space-y-8">
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                                             <div>
                                                 <label className="block text-[10px] font-bold text-luxury-gold tracking-[0.2em] uppercase mb-2" htmlFor="first-name">{t('contactPage.name')}</label>
                                                 <input id="first-name" type="text" required className="w-full bg-transparent border-b border-white/10 focus:border-luxury-gold focus:outline-none py-3 text-white transition-colors" placeholder={t('contactPage.placeholderName')} />

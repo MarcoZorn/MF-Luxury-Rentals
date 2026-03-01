@@ -4,7 +4,7 @@ import { Heart, Camera, Gift, Star, CheckCircle, Phone, ArrowRight } from 'lucid
 import { useLanguage } from '../hooks/useLanguage';
 import Button from '../components/ui/Button';
 import { Link } from 'react-router-dom';
-import wedding1 from '../assets/images/wedding/wedding_main.jpg';
+const wedding1 = "/images/services/wedding-service-couple.webp";
 import wedding2 from '../assets/images/wedding/wedding_ceremony.jpg';
 
 const Wedding: React.FC = () => {

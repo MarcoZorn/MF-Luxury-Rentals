@@ -60,7 +60,7 @@ export const translations: Record<string, Record<string, any>> = {
             conciergeAvailability: 'Il tuo concierge personale MF è disponibile 24 ore su 24, 7 giorni su 7.',
             whatsappDirect: 'WHATSAPP DIRETTO',
             contactUs: 'CONTATTACI',
-                items: [
+            items: [
                 { title: 'LUXURY RENTAL', desc: 'Lusso vero senza eguali. Scegli le nostre auto di proprietà tra Supercar, Sportcar, SUV e SuperSUV, Executive e Cabriolet' },
                 { title: 'FLEX FREE CHOICE', desc: 'Ci adattiamo alle tue esigenze. Consegna o ritira la tua auto dove vuoi. Massima libertà e flessibilità.' },
                 { title: 'PERSONAL DRIVER', desc: 'Accoglienza impeccabile dal primo momento. Autista privato altamente qualificato per accompagnarti al tuo punto d’incontro, stazione, aeroporto o appuntamento' },
@@ -185,7 +185,6 @@ export const translations: Record<string, Record<string, any>> = {
             support: 'Supporto Clienti',
             hours: 'Orari',
             delivery: 'Consegna e Ritiro',
-            response: 'Tempo di risposta',
             notFound: 'Auto non trovata',
             vip: {
                 tag: 'ACCESSO CONCIERGE PRIVATO',
@@ -250,8 +249,6 @@ export const translations: Record<string, Record<string, any>> = {
             sortBy: 'ORDINA PER',
             sortOptions: {
                 default: 'Predefinito',
-                priceAsc: 'Prezzo: Crescente',
-                priceDesc: 'Prezzo: Decrescente',
                 power: 'Potenza'
             },
             noCars: 'Nessuna vettura trovata con questi filtri.',
@@ -359,7 +356,7 @@ export const translations: Record<string, Record<string, any>> = {
             conciergeAvailability: 'Your personal MF concierge is available 24 hours a day, 7 days a week.',
             whatsappDirect: 'WHATSAPP DIRECT',
             contactUs: 'CONTACT US',
-                items: [
+            items: [
                 { title: 'LUXURY RENTAL', desc: 'True luxury without equals. Choose our owned cars among Supercars, Sportcars, SUV and SuperSUV, Executive and Cabriolet' },
                 { title: 'FLEX FREE CHOICE', desc: 'We adapt to your needs. Deliver or pick up your car wherever you want. Maximum freedom and flexibility.' },
                 { title: 'PERSONAL DRIVER', desc: 'Impeccable welcome from the first moment. Highly qualified private driver to accompany you.' },
@@ -469,8 +466,6 @@ export const translations: Record<string, Record<string, any>> = {
             sortBy: 'SORT BY',
             sortOptions: {
                 default: 'Default',
-                priceAsc: 'Price: Low to High',
-                priceDesc: 'Price: High to Low',
                 power: 'Power'
             },
             noCars: 'No cars found with these filters.',
@@ -502,7 +497,6 @@ export const translations: Record<string, Record<string, any>> = {
             support: 'Customer Support',
             hours: 'Hours',
             delivery: 'Delivery & Pickup',
-            response: 'Response time',
             notFound: 'Car not found',
             vip: {
                 tag: 'PRIVATE CONCIERGE ACCESS',
@@ -608,7 +602,7 @@ export const translations: Record<string, Record<string, any>> = {
             conciergeAvailability: 'Votre concierge personnel MF est à votre disposition 24h/24, 7j/7.',
             whatsappDirect: 'WHATSAPP DIRECT',
             contactUs: 'CONTACTEZ-NOUS',
-                items: [
+            items: [
                 { title: 'LOCATION DE LUXE', desc: 'Vrai luxe sans égal. Supercars, Sportcars, SUV, Cabriolet' },
                 { title: 'FLEX FREE CHOICE', desc: 'Livraison et retrait où vous voulez. Liberté maximale' },
                 { title: 'CHAUFFEUR PRIVÉ', desc: 'Accueil impeccable. Chauffeur qualifié pour tous vos déplacements' },
@@ -717,8 +711,6 @@ export const translations: Record<string, Record<string, any>> = {
             sortBy: 'TRIER PAR',
             sortOptions: {
                 default: 'Par défaut',
-                priceAsc: 'Prix : croissant',
-                priceDesc: 'Prix : décroissant',
                 power: 'Puissance'
             },
             noCars: 'Aucune voiture trouvée avec ces filtres.',
@@ -754,7 +746,6 @@ export const translations: Record<string, Record<string, any>> = {
             support: 'Service Client',
             hours: 'Horaires',
             delivery: 'Livraison & Retrait',
-            response: 'Temps de réponse',
             notFound: 'Voiture non trouvée',
             vip: {
                 tag: 'ACCÈS CONCIERGE PRIVÉ',
@@ -860,7 +851,7 @@ export const translations: Record<string, Record<string, any>> = {
             conciergeAvailability: 'Su conserje personal de MF está disponible las 24 horas del día, los 7 días de la week.',
             whatsappDirect: 'WHATSAPP DIRECTO',
             contactUs: 'CONTÁCTENOS',
-                items: [
+            items: [
                 { title: 'ALQUILER DE LUJO', desc: 'Lujo verdadero sin igual. Coches propios' },
                 { title: 'ELECCIÓN LIBRE', desc: 'Entrega y recogida donde quieras. Máxima libertad' },
                 { title: 'CHOFER PRIVADO', desc: 'Bienvenida impecable. Chofer cualificado' },
@@ -963,8 +954,6 @@ export const translations: Record<string, Record<string, any>> = {
             sortBy: 'ORDENAR POR',
             sortOptions: {
                 default: 'Predeterminado',
-                priceAsc: 'Precio: Menor a Mayor',
-                priceDesc: 'Precio: Mayor a Menor',
                 power: 'Potencia'
             },
             noCars: 'No se encontraron coches con estos filtros.',
@@ -1000,7 +989,6 @@ export const translations: Record<string, Record<string, any>> = {
             support: 'Soporte al Cliente',
             hours: 'Horarios',
             delivery: 'Entrega y Recogida',
-            response: 'Tiempo de respuesta',
             notFound: 'Coche no encontrado',
             vip: {
                 tag: 'ACCESO CONSERJE PRIVADO',
@@ -1106,7 +1094,7 @@ export const translations: Record<string, Record<string, any>> = {
             conciergeAvailability: 'Ваш личный консьерж MF доступен 24 часа в сутки, 7 дней в неделю.',
             whatsappDirect: 'WHATSAPP НАПРЯМУЮ',
             contactUs: 'СВЯЗАТЬСЯ С НАМИ',
-                items: [
+            items: [
                 { title: 'ЛЮКС АРЕНДА', desc: 'Истинная роскошь. Собственные авто' },
                 { title: 'СВОБОДНЫЙ ВЫБОР', desc: 'Доставка где угодно. Максимальная свобода' },
                 { title: 'ЛИЧНЫЙ ВОДИТЕЛЬ', desc: 'Квалифицированный водитель для вас' },
@@ -1209,8 +1197,6 @@ export const translations: Record<string, Record<string, any>> = {
             sortBy: 'СОРТИРОВКА',
             sortOptions: {
                 default: 'По умолчанию',
-                priceAsc: 'Цена: по возрастанию',
-                priceDesc: 'Цена: по убыванию',
                 power: 'Мощность'
             },
             noCars: 'Автомобили не найдены по этим фильтрам.',
@@ -1246,7 +1232,6 @@ export const translations: Record<string, Record<string, any>> = {
             support: 'Поддержка клиентов',
             hours: 'Часы работы',
             delivery: 'Доставка и Вывоз',
-            response: 'Время ответа',
             notFound: 'Автомобиль не найден',
             vip: {
                 tag: 'ЧАСТНЫЙ КОНСЬЕРЖ-ДОСТУП',
@@ -1352,7 +1337,7 @@ export const translations: Record<string, Record<string, any>> = {
             conciergeAvailability: 'كونسيرج MF الشخصي متاح 24 ساعة في اليوم، 7 أيام في الأسبوع.',
             whatsappDirect: 'واتساب مباشر',
             contactUs: 'اتصل بنا',
-                items: [
+            items: [
                 { title: 'تأجير فاخر', desc: 'رفاهية حقيقية. سيارات مملوكة' },
                 { title: 'حرية الاختيار', desc: 'تسليم واستلام أينما تريد. حرية قصوى' },
                 { title: 'سائق خاص', desc: 'سائق مؤهل لخدمتك' },
@@ -1464,8 +1449,6 @@ export const translations: Record<string, Record<string, any>> = {
             sortBy: 'ترتيب حسب',
             sortOptions: {
                 default: 'افتراضي',
-                priceAsc: 'السعر: من الأقل للأعلى',
-                priceDesc: 'السعر: من الأعلى للأقل',
                 power: 'القوة'
             },
             noCars: 'لا توجد سيارات مطابقة لهذه الفلاتر.',
@@ -1501,7 +1484,6 @@ export const translations: Record<string, Record<string, any>> = {
             support: 'دعم العملاء',
             hours: 'الساعات',
             delivery: 'التسليم والاستلام',
-            response: 'وقت الاستجابة',
             notFound: 'السيارة غير موجودة',
             vip: {
                 tag: 'وصول خاص للكونسيرج',
